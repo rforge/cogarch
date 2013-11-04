@@ -1,0 +1,13 @@
+exportPattern("^[[:alpha:]]+")
+exportMethods(
+    "plot",
+    "rCOGARCH",
+    "shrinker",
+    "summary" 
+)
+exportClasses(
+    "COGARCH",
+     "COGprm",
+     "shock",
+     "varGamma" 
+)
