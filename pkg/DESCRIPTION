@@ -6,5 +6,5 @@ Date: 2013-10-03
 Author:  A. Arcagni, L. Mercuri
 Maintainer: A. Arcagni <alberto.arcagni@unimib.it>
 Description: The package provides simulation and estimation procedures for the COGARCH introduced in "A continuous-time GARCH process driven by a L{\'e}vy process: Stationarity and second-order behaviour", by Kl{\"u}ppelberg et al., Journal of Applied Probability (2004)
-License: GPL (>= 2)
+License: GPL-2
 Depends: methods
