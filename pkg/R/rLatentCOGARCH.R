@@ -12,5 +12,5 @@ rLatentCOGARCH <- function(deltat, inc, p=1, q=1, eta, beta, phi, sigmaSq0, L0=0
   
   G<-apply(rbind(L0, as.matrix(infraret[-n,])), 2, cumsum)
   
-  res <- new("COGARCH", time=c(0, cumsum(deltat)), sigma=sigma, G=G)
+  res <- new("trajectories", time=c(0, cumsum(deltat)), sigma=sigma, G=G)
 }

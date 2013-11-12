@@ -1,5 +1,5 @@
 setMethod("plot",
-          signature(x = "COGARCH", y = "missing"),
+          signature(x = "trajectories", y = "missing"),
           function (x, y, ...) 
           {
             par(mfrow=c(2,1))

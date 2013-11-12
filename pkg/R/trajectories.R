@@ -1,5 +1,5 @@
-COGARCH <- setClass(
-  "COGARCH",
+trajectories <- setClass(
+  "trajectories",
   representation(
     time = "numeric",
     sigma = "matrix",

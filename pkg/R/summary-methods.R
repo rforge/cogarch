@@ -1,4 +1,4 @@
-setMethod("summary", signature(object="COGARCH"),
+setMethod("summary", signature(object="trajectories"),
           function(object) {
             minT <- min(object@time)
             maxT <- max(object@time)
