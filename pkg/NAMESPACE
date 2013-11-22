@@ -6,7 +6,7 @@ exportMethods(
     "summary" 
 )
 exportClasses(
-    "COGARCH",
+    "trajectories",
      "COGprm",
      "shock",
      "varGamma" 
