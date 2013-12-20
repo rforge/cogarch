@@ -11,3 +11,4 @@ exportClasses(
      "shock",
      "varGamma" 
 )
+useDynLib(COGARCH)
