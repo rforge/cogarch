@@ -1,0 +1,7 @@
+(E^(d2*\[CapitalPsi][2])*
+  (((-1 + E^(d1*\[CapitalPsi][2]))*(-2*\[CapitalPsi][1] + \[CapitalPsi][2]))/
+    \[CapitalPsi][2] + 
+   (6*\[Phi]*((-1 + E^(d1*\[CapitalPsi][1]))/\[CapitalPsi][1] + 
+      (1 - E^(d1*\[CapitalPsi][2]))/\[CapitalPsi][2])*
+     (\[Phi] - 2*\[CapitalPsi][1] + \[CapitalPsi][2]))/
+    (\[CapitalPsi][1] - \[CapitalPsi][2])))/\[Phi]^2

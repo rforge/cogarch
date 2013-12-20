@@ -1,0 +1,169 @@
+{SecretTable[SecretSum[b[\[Nu]]*SecretSum[
+     (-1 + \[Kappa] - \[Nu])*b[\[Kappa]]*coeff[EG2G2c] - 
+      ((E^\[CapitalPsi][1] - E^((\[Kappa] - \[Nu])*\[CapitalPsi][1]))*
+        b[\[Kappa]]*coeff[EG2G2cAW])/(-1 + E^\[CapitalPsi][1]), 
+     {\[Kappa], Max[0, 2 + \[Nu]], q}], {\[Nu], 0, -2 + q}], {j, 0, 0}, 
+  {k, 0, 0}], SecretTable[SecretSum[
+   b[\[Nu]]*SecretSum[b[\[Kappa]]*(coeff[EG2G2cAW]/
+        (E^((-1 + \[Kappa] - \[Nu] - Max[0, \[Kappa] - \[Nu]])*
+           \[CapitalPsi][1])*(1 - E^\[CapitalPsi][1])) + 
+       SecretSum[coeff[EG2G2c], {i, Max[1, 1 + \[Kappa] - \[Nu]], 
+         Infinity}]), {\[Kappa], 0, q}], {\[Nu], 0, q}], {j, 0, 0}, 
+  {k, 0, 0}], SecretTable[SecretSum[
+   b[\[Nu]]*SecretSum[b[\[Kappa]]*coeff[EG4c], {\[Kappa], Max[0, 1 + \[Nu]], 
+      q}], {\[Nu], 0, -1 + q}], {j, 0, 0}, {k, 0, 0}], 
+ SecretTable[2*coeff[EG2c]*SecretSum[b[\[Kappa]], {\[Kappa], 0, q}]*
+   SecretSum[Subscript[a, 0], {i, 1, Infinity}], {j, 0, 0}, {k, 0, 0}], 
+ SecretTable[SecretSum[Subscript[a, 0]^2, {i, 1, Infinity}], {j, 0, 0}, 
+  {k, 0, 0}], SecretTable[SecretSum[
+   b[\[Nu]]*SecretSum[(-1 + \[Kappa] - \[Nu])*b[\[Kappa]]*coeff[EG2G2G2c] - 
+      ((E^\[CapitalPsi][1] - E^((\[Kappa] - \[Nu])*\[CapitalPsi][1]))*
+        b[\[Kappa]]*coeff[EG2G2G2cAD])/(-1 + E^\[CapitalPsi][1]) + 
+      ((-1 + \[Kappa] - \[Nu])*b[\[Kappa]]*coeff[EG2G2G2cAW])/
+       E^((j - \[Nu])*\[CapitalPsi][1]) + 
+      ((E^(\[Kappa]*\[CapitalPsi][1]) - E^((1 + \[Nu])*\[CapitalPsi][1]))*
+        b[\[Kappa]]*coeff[EG2G2G2cAWAD])/(E^(j*\[CapitalPsi][1])*
+        (-1 + E^\[CapitalPsi][1])) + 
+      (E^(-(j*\[CapitalPsi][1]) + \[Nu]*\[CapitalPsi][1] - 
+          \[Nu]*\[CapitalPsi][2])*(E^(\[Kappa]*\[CapitalPsi][2]) - 
+         E^((1 + \[Nu])*\[CapitalPsi][2]))*b[\[Kappa]]*coeff[EG2G2G2cAWBD])/
+       (-1 + E^\[CapitalPsi][2]), {\[Kappa], Max[0, 2 + \[Nu]], q}], 
+   {\[Nu], 1 + j, -2 + q}], {j, 1, -3 + q}, {k, 0, 0}], Null, Null, Null, 
+ Null, SecretTable[SecretSum[
+   b[\[Nu]]*SecretSum[(-1 - j + \[Kappa])*b[\[Kappa]]*coeff[EG2G2G2c] + 
+      ((E^\[CapitalPsi][1] - E^(-((j - \[Kappa])*\[CapitalPsi][1])))*
+        b[\[Kappa]]*coeff[EG2G2G2cAD])/(1 - E^\[CapitalPsi][1]) - 
+      E^((j - \[Nu])*\[CapitalPsi][1])*(1 + j - \[Kappa])*b[\[Kappa]]*
+       coeff[EG2G2G2cAW] + ((-E^((1 + j)*\[CapitalPsi][1]) + 
+         E^(\[Kappa]*\[CapitalPsi][1]))*b[\[Kappa]]*coeff[EG2G2G2cAWAD])/
+       (E^(\[Nu]*\[CapitalPsi][1])*(-1 + E^\[CapitalPsi][1])) + 
+      (E^(j*\[CapitalPsi][1] - \[Nu]*\[CapitalPsi][1] - j*\[CapitalPsi][2])*
+        (-E^((1 + j)*\[CapitalPsi][2]) + E^(\[Kappa]*\[CapitalPsi][2]))*
+        b[\[Kappa]]*coeff[EG2G2G2cAWBD])/(-1 + E^\[CapitalPsi][2]), 
+     {\[Kappa], Max[0, 2 + j], q}], {\[Nu], 0, -1 + j}], {j, 1, -2 + q}, 
+  {k, 0, 0}], SecretTable[SecretSum[
+   b[\[Nu]]*SecretSum[(E^((j - \[Kappa])*\[CapitalPsi][1])*
+        (E^((\[Kappa] - \[Nu])*\[CapitalPsi][1]) - 
+         E^((1 + Max[0, -j + \[Kappa]])*\[CapitalPsi][1]))*b[\[Kappa]]*
+        coeff[EG2G2G2cAD])/(-1 + E^\[CapitalPsi][1]) + 
+      ((-E^\[CapitalPsi][1] + E^((\[Kappa] - \[Nu] - Max[0, -j + \[Kappa]])*
+           \[CapitalPsi][1]))*b[\[Kappa]]*coeff[EG2G2G2cAW])/
+       (-1 + E^\[CapitalPsi][1]) + 
+      (E^((1 + \[Kappa] - \[Nu])*\[CapitalPsi][1] + (j - \[Kappa])*
+           \[CapitalPsi][2])*
+        (-E^(-((\[Kappa] - \[Nu])*(\[CapitalPsi][1] - \[CapitalPsi][2]))) + 
+         E^(-((1 + Max[0, -j + \[Kappa]])*(\[CapitalPsi][1] - 
+             \[CapitalPsi][2]))))*b[\[Kappa]]*coeff[EG2G2G2cAWBD])/
+       (E^\[CapitalPsi][1] - E^\[CapitalPsi][2]) + 
+      b[\[Kappa]]*coeff[EG2G2G2c]*(-1 + \[Kappa] - \[Nu] - 
+        Max[0, -j + \[Kappa]]) - E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+       coeff[EG2G2G2cAWAD]*(1 - \[Kappa] + \[Nu] + Max[0, -j + \[Kappa]]), 
+     {\[Kappa], Max[0, 2 + \[Nu]], q}], {\[Nu], 0, Min[-2 + j, -2 + q]}], 
+  {j, 2, q}, {k, 0, 0}], SecretTable[
+  SecretSum[b[\[Nu]]*SecretSum[b[\[Kappa]]*
+      (coeff[EG2G2G2cAW]/(E^((-1 + \[Kappa] - \[Nu] - 
+            Max[0, \[Kappa] - \[Nu]])*\[CapitalPsi][1])*
+         (1 - E^\[CapitalPsi][1])) - 
+       (E^((1 + j - \[Kappa] + Max[0, \[Kappa] - \[Nu]])*\[CapitalPsi][1])*
+         coeff[EG2G2G2cAWAD])/(-1 + E^\[CapitalPsi][1]) - 
+       (E^((1 - \[Kappa] + \[Nu])*\[CapitalPsi][1] + Max[0, \[Kappa] - \[Nu]]*
+            \[CapitalPsi][1] + (j - \[Nu])*\[CapitalPsi][2])*
+         coeff[EG2G2G2cAWBD])/(-1 + E^\[CapitalPsi][1]) + 
+       E^(j*\[CapitalPsi][1])*coeff[EG2G2G2cAD]*
+        SecretSum[E^(-(\[Nu]*\[CapitalPsi][1])), 
+         {i, Max[1, 1 + \[Kappa] - \[Nu]], Infinity}] + 
+       SecretSum[coeff[EG2G2G2c], {i, Max[1, 1 + \[Kappa] - \[Nu]], 
+         Infinity}]), {\[Kappa], 0, q}], {\[Nu], 0, -1 + j}], {j, 1, q}, 
+  {k, 0, 0}], SecretTable[SecretSum[
+   b[\[Nu]]*SecretSum[b[\[Kappa]]*coeff[EG2G4c] + 
+      E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*coeff[EG2G4cAW], 
+     {\[Kappa], Max[0, 1 + j], q}], {\[Nu], 0, -1 + j}], {j, 1, -1 + q}, 
+  {k, 0, 0}], SecretTable[SecretSum[
+   b[\[Nu]]*SecretSum[b[\[Kappa]]*coeff[EG4G2c] + 
+      E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*coeff[EG4G2cAD] + 
+      E^((j - \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*coeff[EG4G2cBD], 
+     {\[Kappa], Max[0, 1 + \[Nu]], q}], {\[Nu], 0, Min[-1 + j, -1 + q]}], 
+  {j, 1, q}, {k, 0, 0}], Null, Null, Null, Null, Null, 
+ SecretTable[coeff[EG4c]*SecretSum[b[\[Kappa]]*Subscript[a, 0], 
+    {\[Kappa], Max[0, 1 + j], q}], {j, 1, -1 + q}, {k, 0, 0}], 
+ SecretTable[SecretSum[b[\[Kappa]]*coeff[EG2G2c] + 
+     (b[\[Kappa]]*coeff[EG2G2cAW])/E^((j - \[Kappa])*\[CapitalPsi][1]), 
+    {\[Kappa], 1 + j, q}]*SecretSum[Subscript[a, 0], {i, 1, Infinity}], 
+  {j, 1, -1 + q}, {k, 0, 0}], SecretTable[
+  SecretSum[b[\[Kappa]]*coeff[EG2G2c] + E^((j - \[Kappa])*\[CapitalPsi][1])*
+      b[\[Kappa]]*coeff[EG2G2cAW], {\[Kappa], 0, -1 + j}]*
+   SecretSum[Subscript[a, 0], {i, 1, Infinity}], {j, 1, q}, {k, 0, 0}], 
+ SecretTable[b[j]*coeff[EG4c]*SecretSum[Subscript[a, 0], {i, 1, Infinity}], 
+  {j, 1, q}, {k, 0, 0}], SecretTable[
+  coeff[EG2c]*SecretSum[Subscript[a, 0]^2, {i, 1, Infinity}], {j, 1, q}, 
+  {k, 0, 0}], SecretTable[SecretSum[
+   b[\[Nu]]*SecretSum[(-1 + k - \[Nu])*b[\[Kappa]]*coeff[EG2G2G2c] + 
+      ((-1 + k - \[Nu])*b[\[Kappa]]*coeff[EG2G2G2cAD])/
+       E^((k - \[Kappa])*\[CapitalPsi][1]) - 
+      ((E^\[CapitalPsi][1] - E^((k - \[Nu])*\[CapitalPsi][1]))*b[\[Kappa]]*
+        coeff[EG2G2G2cAW])/(-1 + E^\[CapitalPsi][1]) + 
+      ((E^(k*\[CapitalPsi][1]) - E^((1 + \[Nu])*\[CapitalPsi][1]))*
+        b[\[Kappa]]*coeff[EG2G2G2cAWAD])/
+       (E^((k - \[Kappa] + \[Nu])*\[CapitalPsi][1])*
+        (-1 + E^\[CapitalPsi][1])) + 
+      (E^(-(\[Nu]*\[CapitalPsi][1]) + (-k + \[Kappa])*\[CapitalPsi][2])*
+        (E^(k*\[CapitalPsi][1]) - E^((1 + \[Nu])*\[CapitalPsi][1]))*
+        b[\[Kappa]]*coeff[EG2G2G2cAWBD])/(-1 + E^\[CapitalPsi][1]), 
+     {\[Kappa], 1 + k, q}], {\[Nu], 0, Min[-2 + k, q]}], {j, 0, 0}, 
+  {k, 2, -1 + q}], SecretTable[
+  SecretSum[b[\[Nu]]*SecretSum[(-1 + \[Kappa] - \[Nu])*b[\[Kappa]]*
+       coeff[EG2G2G2c] + E^((k - \[Kappa])*\[CapitalPsi][1])*
+       (-1 + \[Kappa] - \[Nu])*b[\[Kappa]]*coeff[EG2G2G2cAD] - 
+      ((E^\[CapitalPsi][1] - E^((\[Kappa] - \[Nu])*\[CapitalPsi][1]))*
+        b[\[Kappa]]*coeff[EG2G2G2cAW])/(-1 + E^\[CapitalPsi][1]) + 
+      (E^(k*\[CapitalPsi][1])*(-E^(-((-1 + \[Kappa])*\[CapitalPsi][1])) + 
+         E^(-(\[Nu]*\[CapitalPsi][1])))*b[\[Kappa]]*coeff[EG2G2G2cAWAD])/
+       (-1 + E^\[CapitalPsi][1]) + 
+      (E^(-(\[Nu]*\[CapitalPsi][1]) + (k - \[Kappa])*\[CapitalPsi][2])*
+        (E^(\[Kappa]*\[CapitalPsi][1]) - E^((1 + \[Nu])*\[CapitalPsi][1]))*
+        b[\[Kappa]]*coeff[EG2G2G2cAWBD])/(-1 + E^\[CapitalPsi][1]), 
+     {\[Kappa], Max[0, 2 + \[Nu]], -1 + k}], {\[Nu], 0, Min[-3 + k, q]}], 
+  {j, 0, 0}, {k, 3, q}], Null, Null, Null, 
+ SecretTable[SecretSum[b[\[Nu]]*SecretSum[
+     ((-E^\[CapitalPsi][1] + E^((\[Kappa] - \[Nu] - Max[0, k - \[Nu]])*
+           \[CapitalPsi][1]))*b[\[Kappa]]*coeff[EG2G2G2cAD])/
+       (-1 + E^\[CapitalPsi][1]) + 
+      ((E^((\[Kappa] - \[Nu])*\[CapitalPsi][1]) - 
+         E^((1 + Max[0, k - \[Nu]])*\[CapitalPsi][1]))*b[\[Kappa]]*
+        coeff[EG2G2G2cAW])/(E^((k - \[Nu])*\[CapitalPsi][1])*
+        (-1 + E^\[CapitalPsi][1])) + 
+      ((E^(\[Kappa]*\[CapitalPsi][1] + \[CapitalPsi][2]) - 
+         E^((1 + \[Nu])*\[CapitalPsi][1] + Max[0, k - \[Nu]]*
+            (\[CapitalPsi][1] - \[CapitalPsi][2]) + (\[Kappa] - \[Nu])*
+            \[CapitalPsi][2]))*b[\[Kappa]]*coeff[EG2G2G2cAWBD])/
+       (E^(k*\[CapitalPsi][1])*(E^\[CapitalPsi][1] - E^\[CapitalPsi][2])) + 
+      b[\[Kappa]]*coeff[EG2G2G2c]*(-1 + \[Kappa] - \[Nu] - 
+        Max[0, k - \[Nu]]) + (b[\[Kappa]]*coeff[EG2G2G2cAWAD]*
+        (-1 + \[Kappa] - \[Nu] - Max[0, k - \[Nu]]))/
+       E^((k - \[Kappa])*\[CapitalPsi][1]), {\[Kappa], Max[2 + k, 2 + \[Nu]], 
+      q}], {\[Nu], 0, -2 + q}], {j, 0, 0}, {k, 1, -2 + q}], 
+ SecretTable[SecretSum[b[\[Nu]]*SecretSum[b[\[Kappa]]*
+      (coeff[EG2G2G2cAD]/(E^((-1 + \[Kappa] - \[Nu] - 
+            Max[0, \[Kappa] - \[Nu]])*\[CapitalPsi][1])*
+         (1 - E^\[CapitalPsi][1])) + coeff[EG2G2G2cAWAD]/
+        (E^((-1 + k - \[Nu] - Max[0, \[Kappa] - \[Nu]])*\[CapitalPsi][1])*
+         (1 - E^\[CapitalPsi][1])) + 
+       (E^(-(k*\[CapitalPsi][1]) + \[Kappa]*\[CapitalPsi][1] + 
+           \[CapitalPsi][2] - \[Kappa]*\[CapitalPsi][2] + 
+           \[Nu]*\[CapitalPsi][2] + Max[0, \[Kappa] - \[Nu]]*
+            \[CapitalPsi][2])*coeff[EG2G2G2cAWBD])/(1 - E^\[CapitalPsi][2]) + 
+       (coeff[EG2G2G2cAW]*SecretSum[E^(\[Kappa]*\[CapitalPsi][1]), 
+          {i, Max[1, 1 + \[Kappa] - \[Nu]], Infinity}])/
+        E^(k*\[CapitalPsi][1]) + SecretSum[coeff[EG2G2G2c], 
+        {i, Max[1, 1 + \[Kappa] - \[Nu]], Infinity}]), {\[Kappa], 1 + k, q}], 
+   {\[Nu], 0, q}], {j, 0, 0}, {k, 1, -1 + q}], Null, Null, Null, Null, Null, 
+ Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, 
+ Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, 
+ Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, 
+ Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, 
+ Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, 
+ Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, 
+ Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, 
+ Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, 
+ Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, 
+ Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, Null, Null}

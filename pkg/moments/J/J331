@@ -1,0 +1,315 @@
+3*\[Beta]^2*((2*(3*\[CapitalPsi][1] - 3*\[CapitalPsi][2] + \[CapitalPsi][3])*
+    ((E^(d2*\[CapitalPsi][1])*(-1 + E^(d1*\[CapitalPsi][1]))*
+       (\[CapitalPsi][2] - \[CapitalPsi][3]))/\[CapitalPsi][1] + 
+     (E^(d2*\[CapitalPsi][3])*(-1 + E^(d1*\[CapitalPsi][3]))*
+       (\[CapitalPsi][1] - \[CapitalPsi][2]))/\[CapitalPsi][3] + 
+     (E^(d2*\[CapitalPsi][2])*(-1 + E^(d1*\[CapitalPsi][2]))*
+       (-\[CapitalPsi][1] + \[CapitalPsi][3]))/\[CapitalPsi][2]))/
+   (\[Phi]^3*(\[CapitalPsi][1] - \[CapitalPsi][2])*
+    (\[CapitalPsi][1] - \[CapitalPsi][3])*(\[CapitalPsi][2] - 
+     \[CapitalPsi][3])) + (10*(-2*\[CapitalPsi][1] + \[CapitalPsi][2])*
+    ((d1*E^(d2*\[CapitalPsi][1])*(-\[CapitalPsi][1] + \[CapitalPsi][2]))/
+      (\[CapitalPsi][1]^2*\[CapitalPsi][2]) + 
+     (3*E^(d2*\[CapitalPsi][3])*(\[CapitalPsi][1] - \[CapitalPsi][2])*
+       (-\[Phi] + \[CapitalPsi][1] + \[CapitalPsi][2] - \[CapitalPsi][3]))/
+      (\[Phi]*(\[CapitalPsi][2] - \[CapitalPsi][3])^2*\[CapitalPsi][3]*
+       (-\[CapitalPsi][1] + \[CapitalPsi][3])) + 
+     (3*E^((d1 + d2)*\[CapitalPsi][3])*(\[CapitalPsi][1] - \[CapitalPsi][2])*
+       (\[Phi] - \[CapitalPsi][1] - \[CapitalPsi][2] + \[CapitalPsi][3]))/
+      (\[Phi]*(\[CapitalPsi][2] - \[CapitalPsi][3])^2*\[CapitalPsi][3]*
+       (-\[CapitalPsi][1] + \[CapitalPsi][3])) - 
+     (3*E^(d2*\[CapitalPsi][3])*(\[CapitalPsi][1] - \[CapitalPsi][2])^3*
+        \[CapitalPsi][2]*(\[Phi] - \[CapitalPsi][1] - \[CapitalPsi][2] + 
+         \[CapitalPsi][3]) + E^(d2*\[CapitalPsi][1])*
+        (\[Phi] - \[CapitalPsi][2])*(\[CapitalPsi][2] - \[CapitalPsi][3])^2*
+        (\[CapitalPsi][1]^2 + \[CapitalPsi][2]*(3*\[CapitalPsi][2] - 
+           \[CapitalPsi][3]) - \[CapitalPsi][1]*(2*\[CapitalPsi][2] + 
+           \[CapitalPsi][3])) - E^(d2*\[CapitalPsi][2])*
+        (\[CapitalPsi][1] - \[CapitalPsi][3])*(\[CapitalPsi][2] - 
+         \[CapitalPsi][3])*(3*\[CapitalPsi][1]^3 + \[CapitalPsi][1]*
+          \[CapitalPsi][2]*(7*\[CapitalPsi][2] - 4*\[CapitalPsi][3]) + 
+         \[CapitalPsi][1]^2*(-7*\[CapitalPsi][2] + \[CapitalPsi][3]) + 
+         \[CapitalPsi][2]^2*(-\[CapitalPsi][2] + \[CapitalPsi][3]) + 
+         \[Phi]*(-3*\[CapitalPsi][1]^2 + \[CapitalPsi][1]*
+            (8*\[CapitalPsi][2] - 2*\[CapitalPsi][3]) + \[CapitalPsi][2]*
+            (-7*\[CapitalPsi][2] + 4*\[CapitalPsi][3]))))/
+      (\[Phi]*(\[CapitalPsi][1] - \[CapitalPsi][2])^2*\[CapitalPsi][2]^2*
+       (\[CapitalPsi][1] - \[CapitalPsi][3])*
+       (\[CapitalPsi][2] - \[CapitalPsi][3])^2) + 
+     (2*E^(d2*\[CapitalPsi][2])*\[CapitalPsi][1]^2*
+        (\[Phi] - 2*\[CapitalPsi][1] + \[CapitalPsi][2])*
+        (\[CapitalPsi][1] - \[CapitalPsi][3]) + E^(d2*\[CapitalPsi][1])*
+        (\[CapitalPsi][1]*(-5*\[CapitalPsi][1]^3 + 2*\[CapitalPsi][2]^2*
+            \[CapitalPsi][3] - 5*\[CapitalPsi][1]*\[CapitalPsi][2]*
+            (\[CapitalPsi][2] + \[CapitalPsi][3]) + \[CapitalPsi][1]^2*
+            (8*\[CapitalPsi][2] + 5*\[CapitalPsi][3])) + 
+         \[Phi]*(4*\[CapitalPsi][1]^3 - 2*\[CapitalPsi][2]^2*
+            \[CapitalPsi][3] + \[CapitalPsi][1]*\[CapitalPsi][2]*
+            (2*\[CapitalPsi][2] + 7*\[CapitalPsi][3]) - \[CapitalPsi][1]^2*
+            (4*\[CapitalPsi][2] + 7*\[CapitalPsi][3]))))/
+      (\[Phi]*\[CapitalPsi][1]^3*(\[CapitalPsi][1] - \[CapitalPsi][2])^2*
+       (\[CapitalPsi][1] - \[CapitalPsi][3])) + 
+     (E^(d1*\[CapitalPsi][2])*(3*E^(d2*\[CapitalPsi][3])*
+         (\[CapitalPsi][1] - \[CapitalPsi][2])^3*\[CapitalPsi][2]*
+         (\[Phi] - \[CapitalPsi][1] - \[CapitalPsi][2] + \[CapitalPsi][3]) + 
+        E^(d2*\[CapitalPsi][1])*(\[Phi] - \[CapitalPsi][2])*
+         (\[CapitalPsi][2] - \[CapitalPsi][3])^2*(\[CapitalPsi][1]^2 + 
+          \[CapitalPsi][2]*(3*\[CapitalPsi][2] - \[CapitalPsi][3]) - 
+          \[CapitalPsi][1]*(2*\[CapitalPsi][2] + \[CapitalPsi][3])) - 
+        E^(d2*\[CapitalPsi][2])*(\[CapitalPsi][1] - \[CapitalPsi][3])*
+         (\[CapitalPsi][2] - \[CapitalPsi][3])*
+         (\[CapitalPsi][1]^3*(3 - 3*d1*\[CapitalPsi][2]) + 
+          \[CapitalPsi][1]*\[CapitalPsi][2]*(7*\[CapitalPsi][2] - 
+            3*d1*\[CapitalPsi][2]^2 - 4*\[CapitalPsi][3]) - 
+          \[CapitalPsi][2]^2*(1 + d1*\[CapitalPsi][2])*(\[CapitalPsi][2] - 
+            \[CapitalPsi][3]) + \[CapitalPsi][1]^2*(-1 + d1*\[CapitalPsi][2])*
+           (7*\[CapitalPsi][2] - \[CapitalPsi][3]) + 
+          \[Phi]*(3*\[CapitalPsi][1]^2*(-1 + d1*\[CapitalPsi][2]) - 
+            2*\[CapitalPsi][1]*(-1 + d1*\[CapitalPsi][2])*
+             (4*\[CapitalPsi][2] - \[CapitalPsi][3]) + \[CapitalPsi][2]*
+             (5*d1*\[CapitalPsi][2]^2 + 4*\[CapitalPsi][3] - \[CapitalPsi][
+                2]*(7 + 2*d1*\[CapitalPsi][3]))))))/
+      (\[Phi]*(\[CapitalPsi][1] - \[CapitalPsi][2])^2*\[CapitalPsi][2]^2*
+       (\[CapitalPsi][1] - \[CapitalPsi][3])*
+       (\[CapitalPsi][2] - \[CapitalPsi][3])^2) - 
+     (E^(d1*\[CapitalPsi][1])*(2*E^(d2*\[CapitalPsi][2])*\[CapitalPsi][1]^2*
+         (\[Phi] - 2*\[CapitalPsi][1] + \[CapitalPsi][2])*
+         (\[CapitalPsi][1] - \[CapitalPsi][3]) + E^(d2*\[CapitalPsi][1])*
+         (\[Phi]*(-3*d1*\[CapitalPsi][1]^4 - 2*\[CapitalPsi][2]^2*
+             \[CapitalPsi][3] + \[CapitalPsi][1]^3*(4 + 4*d1*\[CapitalPsi][
+                2] + 3*d1*\[CapitalPsi][3]) - \[CapitalPsi][1]^2*
+             (d1*\[CapitalPsi][2]^2 + 7*\[CapitalPsi][3] + 4*\[CapitalPsi][
+                2]*(1 + d1*\[CapitalPsi][3])) + \[CapitalPsi][1]*
+             \[CapitalPsi][2]*(7*\[CapitalPsi][3] + \[CapitalPsi][2]*(2 + 
+                d1*\[CapitalPsi][3]))) + \[CapitalPsi][1]*
+           (4*d1*\[CapitalPsi][1]^4 + 2*\[CapitalPsi][2]^2*\[CapitalPsi][3] - 
+            \[CapitalPsi][1]^3*(5 + 6*d1*\[CapitalPsi][2] + 
+              4*d1*\[CapitalPsi][3]) - \[CapitalPsi][1]*\[CapitalPsi][2]*
+             (5*\[CapitalPsi][3] + \[CapitalPsi][2]*(5 + 2*d1*\[CapitalPsi][
+                  3])) + \[CapitalPsi][1]^2*(2*d1*\[CapitalPsi][2]^2 + 
+              5*\[CapitalPsi][3] + \[CapitalPsi][2]*(8 + 6*d1*\[CapitalPsi][
+                  3]))))))/(\[Phi]*\[CapitalPsi][1]^3*
+       (\[CapitalPsi][1] - \[CapitalPsi][2])^2*(\[CapitalPsi][1] - 
+        \[CapitalPsi][3]))))/(\[Phi]^2*(\[CapitalPsi][1] - 
+     \[CapitalPsi][2])) + 
+  5*((-3*d1^2*E^(d2*\[CapitalPsi][1]))/\[CapitalPsi][1]^3 + 
+    (2*d1*(-(E^(d2*\[CapitalPsi][1])*(2*\[CapitalPsi][1] - \[CapitalPsi][2])*
+         (-3*\[Phi]^2*(\[CapitalPsi][1] - 3*\[CapitalPsi][2]) + 
+          6*\[Phi]*\[CapitalPsi][1]*(\[CapitalPsi][1] - 2*\[CapitalPsi][2]) + 
+          \[CapitalPsi][1]^2*\[CapitalPsi][2])) + E^(d2*\[CapitalPsi][2])*
+        \[CapitalPsi][1]^2*(6*\[Phi]^2 + \[CapitalPsi][1]*
+          (2*\[CapitalPsi][1] - \[CapitalPsi][2]) + 
+         6*\[Phi]*(-2*\[CapitalPsi][1] + \[CapitalPsi][2]))))/
+     (\[Phi]^2*\[CapitalPsi][1]^4*(\[CapitalPsi][1] - \[CapitalPsi][2])*
+      \[CapitalPsi][2]) - (6*E^(d2*\[CapitalPsi][3])*
+      (6*\[Phi]^2 + 12*\[CapitalPsi][1]^2 - 4*\[CapitalPsi][2]^2 + 
+       \[CapitalPsi][1]*(5*\[CapitalPsi][2] - 11*\[CapitalPsi][3]) + 
+       3*\[CapitalPsi][2]*\[CapitalPsi][3] + \[CapitalPsi][3]^2 + 
+       6*\[Phi]*(-3*\[CapitalPsi][1] + \[CapitalPsi][3])))/
+     (\[Phi]^2*(\[CapitalPsi][1] - \[CapitalPsi][3])^2*
+      (\[CapitalPsi][2] - \[CapitalPsi][3])^2*\[CapitalPsi][3]) + 
+    (6*E^((d1 + d2)*\[CapitalPsi][3])*(6*\[Phi]^2 + 12*\[CapitalPsi][1]^2 - 
+       4*\[CapitalPsi][2]^2 + \[CapitalPsi][1]*(5*\[CapitalPsi][2] - 
+         11*\[CapitalPsi][3]) + 3*\[CapitalPsi][2]*\[CapitalPsi][3] + 
+       \[CapitalPsi][3]^2 + 6*\[Phi]*(-3*\[CapitalPsi][1] + 
+         \[CapitalPsi][3])))/(\[Phi]^2*(\[CapitalPsi][1] - \[CapitalPsi][3])^
+       2*(\[CapitalPsi][2] - \[CapitalPsi][3])^2*\[CapitalPsi][3]) + 
+    (2*(18*E^(d2*\[CapitalPsi][3])*(\[CapitalPsi][1] - \[CapitalPsi][2])^3*
+        \[CapitalPsi][2]*(\[Phi] - 2*\[CapitalPsi][1] + \[CapitalPsi][2])*
+        (\[Phi] - \[CapitalPsi][1] - \[CapitalPsi][2] + \[CapitalPsi][3]) + 
+       6*E^(d2*\[CapitalPsi][1])*(\[Phi] - \[CapitalPsi][2])*
+        (\[Phi] - 2*\[CapitalPsi][1] + \[CapitalPsi][2])*
+        (\[CapitalPsi][2] - \[CapitalPsi][3])^2*(\[CapitalPsi][1]^2 + 
+         \[CapitalPsi][2]*(3*\[CapitalPsi][2] - \[CapitalPsi][3]) - 
+         \[CapitalPsi][1]*(2*\[CapitalPsi][2] + \[CapitalPsi][3])) + 
+       E^(d2*\[CapitalPsi][2])*(\[CapitalPsi][1] - \[CapitalPsi][3])*
+        (\[CapitalPsi][2] - \[CapitalPsi][3])*(36*\[CapitalPsi][1]^4 + 
+         \[CapitalPsi][1]^2*\[CapitalPsi][2]*(199*\[CapitalPsi][2] - 
+           64*\[CapitalPsi][3]) + \[CapitalPsi][2]^3*(5*\[CapitalPsi][2] - 
+           2*\[CapitalPsi][3]) + \[CapitalPsi][1]^3*(-139*\[CapitalPsi][2] + 
+           10*\[CapitalPsi][3]) + \[CapitalPsi][1]*\[CapitalPsi][2]^2*
+          (-77*\[CapitalPsi][2] + 32*\[CapitalPsi][3]) + 
+         6*\[Phi]^2*(3*\[CapitalPsi][1]^2 + \[CapitalPsi][2]*
+            (11*\[CapitalPsi][2] - 5*\[CapitalPsi][3]) + \[CapitalPsi][1]*
+            (-10*\[CapitalPsi][2] + \[CapitalPsi][3])) - 
+         6*\[Phi]*(3*\[CapitalPsi][1] - \[CapitalPsi][2])*
+          (3*\[CapitalPsi][1]^2 + \[CapitalPsi][2]*(11*\[CapitalPsi][2] - 
+             5*\[CapitalPsi][3]) + \[CapitalPsi][1]*(-10*\[CapitalPsi][2] + 
+             \[CapitalPsi][3])))))/(\[Phi]^2*
+      (\[CapitalPsi][1] - \[CapitalPsi][2])^4*\[CapitalPsi][2]^2*
+      (\[CapitalPsi][1] - \[CapitalPsi][3])*
+      (\[CapitalPsi][2] - \[CapitalPsi][3])^2) + 
+    (2*(-3*E^(d2*\[CapitalPsi][3])*\[CapitalPsi][1]^4*
+        (\[CapitalPsi][1] - \[CapitalPsi][2])^3*(6*\[Phi]^2 + 
+         13*\[CapitalPsi][1]^2 + \[CapitalPsi][1]*(3*\[CapitalPsi][2] - 
+           11*\[CapitalPsi][3]) + 6*\[Phi]*(-3*\[CapitalPsi][1] + 
+           \[CapitalPsi][3]) + \[CapitalPsi][2]*(-4*\[CapitalPsi][2] + 
+           5*\[CapitalPsi][3])) + E^(d2*\[CapitalPsi][2])*\[CapitalPsi][1]^2*
+        (\[CapitalPsi][1] - \[CapitalPsi][3])^2*
+        (6*\[Phi]^2*(3*\[CapitalPsi][1]^3 + 7*\[CapitalPsi][1]*
+            \[CapitalPsi][2]*(\[CapitalPsi][2] - \[CapitalPsi][3]) + 
+           2*\[CapitalPsi][2]^2*(-\[CapitalPsi][2] + \[CapitalPsi][3]) + 
+           \[CapitalPsi][1]^2*(-12*\[CapitalPsi][2] + 9*\[CapitalPsi][3])) - 
+         6*\[Phi]*(3*\[CapitalPsi][1] - \[CapitalPsi][2])*
+          (3*\[CapitalPsi][1]^3 + 7*\[CapitalPsi][1]*\[CapitalPsi][2]*
+            (\[CapitalPsi][2] - \[CapitalPsi][3]) + 2*\[CapitalPsi][2]^2*
+            (-\[CapitalPsi][2] + \[CapitalPsi][3]) + \[CapitalPsi][1]^2*
+            (-12*\[CapitalPsi][2] + 9*\[CapitalPsi][3])) + 
+         \[CapitalPsi][1]*(39*\[CapitalPsi][1]^4 + \[CapitalPsi][1]^2*
+            \[CapitalPsi][2]*(176*\[CapitalPsi][2] - 149*\[CapitalPsi][3]) + 
+           13*\[CapitalPsi][2]^3*(\[CapitalPsi][2] - \[CapitalPsi][3]) + 
+           \[CapitalPsi][1]*\[CapitalPsi][2]^2*(-76*\[CapitalPsi][2] + 
+             73*\[CapitalPsi][3]) + \[CapitalPsi][1]^3*
+            (-176*\[CapitalPsi][2] + 113*\[CapitalPsi][3]))) - 
+       E^(d2*\[CapitalPsi][1])*(\[CapitalPsi][1] - \[CapitalPsi][3])*
+        (\[CapitalPsi][2] - \[CapitalPsi][3])*
+        (6*\[Phi]^2*(2*\[CapitalPsi][1] - \[CapitalPsi][2])*
+          (6*\[CapitalPsi][1]^4 + 3*\[CapitalPsi][2]^3*\[CapitalPsi][3] - 
+           3*\[CapitalPsi][1]*\[CapitalPsi][2]^2*(\[CapitalPsi][2] + 
+             4*\[CapitalPsi][3]) + 4*\[CapitalPsi][1]^2*\[CapitalPsi][2]*
+            (3*\[CapitalPsi][2] + 4*\[CapitalPsi][3]) - \[CapitalPsi][1]^3*
+            (13*\[CapitalPsi][2] + 9*\[CapitalPsi][3])) - 
+         12*\[Phi]*\[CapitalPsi][1]*(2*\[CapitalPsi][1] - \[CapitalPsi][2])*
+          (6*\[CapitalPsi][1]^4 + 3*\[CapitalPsi][2]^3*\[CapitalPsi][3] - 
+           3*\[CapitalPsi][1]*\[CapitalPsi][2]^2*(\[CapitalPsi][2] + 
+             4*\[CapitalPsi][3]) + 4*\[CapitalPsi][1]^2*\[CapitalPsi][2]*
+            (3*\[CapitalPsi][2] + 4*\[CapitalPsi][3]) - \[CapitalPsi][1]^3*
+            (13*\[CapitalPsi][2] + 9*\[CapitalPsi][3])) + 
+         \[CapitalPsi][1]^2*(73*\[CapitalPsi][1]^5 - 14*\[CapitalPsi][2]^4*
+            \[CapitalPsi][3] - 5*\[CapitalPsi][1]^2*\[CapitalPsi][2]^2*
+            (29*\[CapitalPsi][2] + 33*\[CapitalPsi][3]) + \[CapitalPsi][1]*
+            \[CapitalPsi][2]^3*(26*\[CapitalPsi][2] + 79*\[CapitalPsi][3]) - 
+           \[CapitalPsi][1]^4*(215*\[CapitalPsi][2] + 79*\[CapitalPsi][3]) + 
+           \[CapitalPsi][1]^3*\[CapitalPsi][2]*(273*\[CapitalPsi][2] + 
+             167*\[CapitalPsi][3])))))/(\[Phi]^2*\[CapitalPsi][1]^5*
+      (\[CapitalPsi][1] - \[CapitalPsi][2])^4*
+      (\[CapitalPsi][1] - \[CapitalPsi][3])^2*(\[CapitalPsi][2] - 
+       \[CapitalPsi][3])) + (2*E^(d1*\[CapitalPsi][2])*
+      (-18*E^(d2*\[CapitalPsi][3])*(\[CapitalPsi][1] - \[CapitalPsi][2])^3*
+        \[CapitalPsi][2]*(\[Phi] - 2*\[CapitalPsi][1] + \[CapitalPsi][2])*
+        (\[Phi] - \[CapitalPsi][1] - \[CapitalPsi][2] + \[CapitalPsi][3]) - 
+       6*E^(d2*\[CapitalPsi][1])*(\[Phi] - \[CapitalPsi][2])*
+        (\[Phi] - 2*\[CapitalPsi][1] + \[CapitalPsi][2])*
+        (\[CapitalPsi][2] - \[CapitalPsi][3])^2*(\[CapitalPsi][1]^2 + 
+         \[CapitalPsi][2]*(3*\[CapitalPsi][2] - \[CapitalPsi][3]) - 
+         \[CapitalPsi][1]*(2*\[CapitalPsi][2] + \[CapitalPsi][3])) + 
+       E^(d2*\[CapitalPsi][2])*(\[CapitalPsi][1] - \[CapitalPsi][3])*
+        (\[CapitalPsi][2] - \[CapitalPsi][3])*
+        (36*\[CapitalPsi][1]^4*(-1 + d1*\[CapitalPsi][2]) + 
+         \[CapitalPsi][2]^3*(-6*d1*\[CapitalPsi][2]^2 + 2*\[CapitalPsi][3] + 
+           \[CapitalPsi][2]*(-5 + 6*d1*\[CapitalPsi][3])) + 
+         \[CapitalPsi][1]^2*\[CapitalPsi][2]*(78*d1*\[CapitalPsi][2]^2 + 
+           64*\[CapitalPsi][3] - \[CapitalPsi][2]*
+            (199 + 6*d1*\[CapitalPsi][3])) - \[CapitalPsi][1]*
+          \[CapitalPsi][2]^2*(6*d1*\[CapitalPsi][2]^2 + 32*\[CapitalPsi][3] + 
+           \[CapitalPsi][2]*(-77 + 12*d1*\[CapitalPsi][3])) + 
+         \[CapitalPsi][1]^3*(-102*d1*\[CapitalPsi][2]^2 - 
+           10*\[CapitalPsi][3] + \[CapitalPsi][2]*
+            (139 + 12*d1*\[CapitalPsi][3])) + 6*\[Phi]^2*
+          (3*\[CapitalPsi][1]^2*(-1 + d1*\[CapitalPsi][2]) - 
+           \[CapitalPsi][1]*(8*d1*\[CapitalPsi][2]^2 + \[CapitalPsi][3] - 
+             2*\[CapitalPsi][2]*(5 + d1*\[CapitalPsi][3])) + 
+           \[CapitalPsi][2]*(5*d1*\[CapitalPsi][2]^2 + 5*\[CapitalPsi][3] - 
+             \[CapitalPsi][2]*(11 + 2*d1*\[CapitalPsi][3]))) - 
+         6*\[Phi]*(9*\[CapitalPsi][1]^3*(-1 + d1*\[CapitalPsi][2]) + 
+           \[CapitalPsi][2]^2*(-4*d1*\[CapitalPsi][2]^2 - 
+             5*\[CapitalPsi][3] + \[CapitalPsi][2]*(11 + d1*\[CapitalPsi][
+                 3])) + \[CapitalPsi][1]^2*(-26*d1*\[CapitalPsi][2]^2 - 
+             3*\[CapitalPsi][3] + \[CapitalPsi][2]*(33 + 5*d1*\[CapitalPsi][
+                 3])) + \[CapitalPsi][1]*\[CapitalPsi][2]*
+            (21*d1*\[CapitalPsi][2]^2 + 16*\[CapitalPsi][3] - 
+             \[CapitalPsi][2]*(43 + 6*d1*\[CapitalPsi][3]))))))/
+     (\[Phi]^2*(\[CapitalPsi][1] - \[CapitalPsi][2])^4*\[CapitalPsi][2]^2*
+      (\[CapitalPsi][1] - \[CapitalPsi][3])*
+      (\[CapitalPsi][2] - \[CapitalPsi][3])^2) + 
+    (E^(d1*\[CapitalPsi][1])*(6*E^(d2*\[CapitalPsi][3])*\[CapitalPsi][1]^4*
+        (\[CapitalPsi][1] - \[CapitalPsi][2])^3*(6*\[Phi]^2 + 
+         13*\[CapitalPsi][1]^2 + \[CapitalPsi][1]*(3*\[CapitalPsi][2] - 
+           11*\[CapitalPsi][3]) + 6*\[Phi]*(-3*\[CapitalPsi][1] + 
+           \[CapitalPsi][3]) + \[CapitalPsi][2]*(-4*\[CapitalPsi][2] + 
+           5*\[CapitalPsi][3])) - 2*E^(d2*\[CapitalPsi][2])*
+        \[CapitalPsi][1]^2*(\[CapitalPsi][1] - \[CapitalPsi][3])^2*
+        (6*\[Phi]^2*(3*\[CapitalPsi][1]^3*(1 + d1*(\[CapitalPsi][2] - 
+               \[CapitalPsi][3])) + \[CapitalPsi][1]*\[CapitalPsi][2]*
+            (7 + d1*\[CapitalPsi][2])*(\[CapitalPsi][2] - \[CapitalPsi][3]) + 
+           2*\[CapitalPsi][2]^2*(-\[CapitalPsi][2] + \[CapitalPsi][3]) + 
+           \[CapitalPsi][1]^2*(-4*d1*\[CapitalPsi][2]^2 + 
+             9*\[CapitalPsi][3] + 4*\[CapitalPsi][2]*(-3 + d1*\[CapitalPsi][
+                 3]))) + \[CapitalPsi][1]*(\[CapitalPsi][1]^4*
+            (39 + 48*d1*(\[CapitalPsi][2] - \[CapitalPsi][3])) + 
+           13*\[CapitalPsi][2]^3*(\[CapitalPsi][2] - \[CapitalPsi][3]) + 
+           \[CapitalPsi][1]^2*\[CapitalPsi][2]*(60*d1*\[CapitalPsi][2]^2 - 
+             149*\[CapitalPsi][3] + \[CapitalPsi][2]*(176 - 60*d1*
+                \[CapitalPsi][3])) + \[CapitalPsi][1]*\[CapitalPsi][2]^2*
+            (-12*d1*\[CapitalPsi][2]^2 + 73*\[CapitalPsi][3] + 
+             4*\[CapitalPsi][2]*(-19 + 3*d1*\[CapitalPsi][3])) + 
+           \[CapitalPsi][1]^3*(-96*d1*\[CapitalPsi][2]^2 + 
+             113*\[CapitalPsi][3] + 16*\[CapitalPsi][2]*(-11 + 6*d1*
+                \[CapitalPsi][3]))) - 6*\[Phi]*(\[CapitalPsi][1]^4*
+            (9 + 10*d1*(\[CapitalPsi][2] - \[CapitalPsi][3])) + 
+           2*\[CapitalPsi][2]^3*(\[CapitalPsi][2] - \[CapitalPsi][3]) - 
+           \[CapitalPsi][1]*\[CapitalPsi][2]^2*(13 + d1*\[CapitalPsi][2])*
+            (\[CapitalPsi][2] - \[CapitalPsi][3]) + \[CapitalPsi][1]^2*
+            \[CapitalPsi][2]*(8*d1*\[CapitalPsi][2]^2 - 30*\[CapitalPsi][3] + 
+             \[CapitalPsi][2]*(33 - 8*d1*\[CapitalPsi][3])) + 
+           \[CapitalPsi][1]^3*(-17*d1*\[CapitalPsi][2]^2 + 
+             27*\[CapitalPsi][3] + \[CapitalPsi][2]*(-39 + 17*d1*
+                \[CapitalPsi][3])))) + E^(d2*\[CapitalPsi][1])*
+        (\[CapitalPsi][1] - \[CapitalPsi][3])*(\[CapitalPsi][2] - 
+         \[CapitalPsi][3])*(3*\[Phi]^2*(9*d1^2*\[CapitalPsi][1]^7 - 
+           12*\[CapitalPsi][2]^4*\[CapitalPsi][3] - 3*d1*\[CapitalPsi][1]^6*
+            (10 + 8*d1*\[CapitalPsi][2] + 3*d1*\[CapitalPsi][3]) + 
+           \[CapitalPsi][1]^5*(48 + 2*d1^2*\[CapitalPsi][2]*
+              (11*\[CapitalPsi][2] + 12*\[CapitalPsi][3]) + 
+             d1*(80*\[CapitalPsi][2] + 42*\[CapitalPsi][3])) + 
+           6*\[CapitalPsi][1]*\[CapitalPsi][2]^3*(12*\[CapitalPsi][3] + 
+             \[CapitalPsi][2]*(2 + d1*\[CapitalPsi][3])) - 
+           \[CapitalPsi][1]^2*\[CapitalPsi][2]^2*(160*\[CapitalPsi][3] + 
+             d1*\[CapitalPsi][2]^2*(6 + d1*\[CapitalPsi][3]) + 
+             8*\[CapitalPsi][2]*(9 + 5*d1*\[CapitalPsi][3])) + 
+           \[CapitalPsi][1]^3*\[CapitalPsi][2]*(d1^2*\[CapitalPsi][2]^3 + 
+             164*\[CapitalPsi][3] + 8*d1*\[CapitalPsi][2]^2*
+              (5 + d1*\[CapitalPsi][3]) + 4*\[CapitalPsi][2]*
+              (37 + 24*d1*\[CapitalPsi][3])) - 2*\[CapitalPsi][1]^4*
+            (4*d1^2*\[CapitalPsi][2]^3 + 36*\[CapitalPsi][3] + 
+             d1*\[CapitalPsi][2]^2*(42 + 11*d1*\[CapitalPsi][3]) + 
+             \[CapitalPsi][2]*(64 + 52*d1*\[CapitalPsi][3]))) - 
+         12*\[Phi]*\[CapitalPsi][1]*(6*d1^2*\[CapitalPsi][1]^7 - 
+           6*\[CapitalPsi][2]^4*\[CapitalPsi][3] - d1*\[CapitalPsi][1]^6*
+            (17 + 17*d1*\[CapitalPsi][2] + 6*d1*\[CapitalPsi][3]) + 
+           \[CapitalPsi][1]^5*(24 + 17*d1^2*\[CapitalPsi][2]*(\[CapitalPsi][
+                2] + \[CapitalPsi][3]) + d1*(47*\[CapitalPsi][2] + 23*
+                \[CapitalPsi][3])) + 2*\[CapitalPsi][1]*\[CapitalPsi][2]^3*
+            (18*\[CapitalPsi][3] + \[CapitalPsi][2]*(3 + 2*d1*\[CapitalPsi][
+                 3])) - \[CapitalPsi][1]^2*\[CapitalPsi][2]^2*
+            (80*\[CapitalPsi][3] + d1*\[CapitalPsi][2]^2*(4 + d1*
+                \[CapitalPsi][3]) + \[CapitalPsi][2]*(36 + 25*d1*
+                \[CapitalPsi][3])) + \[CapitalPsi][1]^3*\[CapitalPsi][2]*
+            (d1^2*\[CapitalPsi][2]^3 + 82*\[CapitalPsi][3] + 
+             d1*\[CapitalPsi][2]^2*(25 + 7*d1*\[CapitalPsi][3]) + 
+             \[CapitalPsi][2]*(74 + 57*d1*\[CapitalPsi][3])) - 
+           \[CapitalPsi][1]^4*(7*d1^2*\[CapitalPsi][2]^3 + 
+             36*\[CapitalPsi][3] + 17*d1*\[CapitalPsi][2]^2*
+              (3 + d1*\[CapitalPsi][3]) + \[CapitalPsi][2]*(64 + 59*d1*
+                \[CapitalPsi][3]))) + 2*\[CapitalPsi][1]^2*
+          (24*d1^2*\[CapitalPsi][1]^7 - 14*\[CapitalPsi][2]^4*
+            \[CapitalPsi][3] - d1*\[CapitalPsi][1]^6*
+            (59 + 24*d1*(3*\[CapitalPsi][2] + \[CapitalPsi][3])) + 
+           \[CapitalPsi][1]^5*(73 + 6*d1^2*\[CapitalPsi][2]*
+              (13*\[CapitalPsi][2] + 12*\[CapitalPsi][3]) + 
+             d1*(178*\[CapitalPsi][2] + 65*\[CapitalPsi][3])) + 
+           \[CapitalPsi][1]*\[CapitalPsi][2]^3*(79*\[CapitalPsi][3] + 
+             13*\[CapitalPsi][2]*(2 + d1*\[CapitalPsi][3])) + 
+           \[CapitalPsi][1]^3*\[CapitalPsi][2]*(6*d1^2*\[CapitalPsi][2]^3 + 
+             167*\[CapitalPsi][3] + 2*d1*\[CapitalPsi][2]^2*(61 + 18*d1*
+                \[CapitalPsi][3]) + 3*\[CapitalPsi][2]*(91 + 54*d1*
+                \[CapitalPsi][3])) - \[CapitalPsi][1]^2*\[CapitalPsi][2]^2*
+            (165*\[CapitalPsi][3] + d1*\[CapitalPsi][2]^2*(25 + 6*d1*
+                \[CapitalPsi][3]) + \[CapitalPsi][2]*(145 + 74*d1*
+                \[CapitalPsi][3])) - \[CapitalPsi][1]^4*
+            (36*d1^2*\[CapitalPsi][2]^3 + 79*\[CapitalPsi][3] + 
+             6*d1*\[CapitalPsi][2]^2*(36 + 13*d1*\[CapitalPsi][3]) + 
+             \[CapitalPsi][2]*(215 + 166*d1*\[CapitalPsi][3]))))))/
+     (\[Phi]^2*\[CapitalPsi][1]^5*(\[CapitalPsi][1] - \[CapitalPsi][2])^4*
+      (\[CapitalPsi][1] - \[CapitalPsi][3])^2*(\[CapitalPsi][2] - 
+       \[CapitalPsi][3]))))

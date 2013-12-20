@@ -1,0 +1,1445 @@
+{SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2c] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2cAW], {\[Nu], 0, -1 + q}, {\[Kappa], 1 + \[Nu], q}], 
+  {j, 0, 0}, {k, 0, 0}], SecretTable[
+  SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2c] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2cAW], {\[Nu], 1, q}, {\[Kappa], 0, -1 + \[Nu]}], {j, 0, 0}, 
+  {k, 0, 0}], SecretTable[SecretSum[b[\[Nu]]^2*coeff[EG4c], {\[Nu], 0, q}, 
+   {\[Kappa], \[Nu], \[Nu]}], {j, 0, 0}, {k, 0, 0}], 
+ SecretTable[SecretSum[2*b[\[Kappa]]*coeff[EG2c]*Subscript[a, 0], 
+   {\[Kappa], 0, q}], {j, 0, 0}, {k, 0, 0}], SecretTable[Subscript[a, 0]^2, 
+  {j, 0, 0}, {k, 0, 0}], SecretTable[
+  SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2c] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2cAD] + E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2cAW] + E^((-k + \[Kappa])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2cAWAD] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1] + (\[Kappa] - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2cAWBD], {\[Nu], 1 + k, -1 + q}, 
+   {\[Kappa], 1 + \[Nu], q}], {j, 0, 0}, {k, 1, -2 + q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2c] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2cAD] + E^((-k + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2cAW] + (b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2cAWAD])/
+     E^((k - \[Nu])*\[CapitalPsi][1]) + 
+    E^((-k + \[Kappa])*\[CapitalPsi][1] + (-\[Kappa] + \[Nu])*
+        \[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2cAWBD], 
+   {\[Nu], 2 + k, q}, {\[Kappa], 1 + k, -1 + \[Nu]}], {j, 0, 0}, 
+  {k, 1, -2 + q}], SecretTable[
+  SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2c] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2cAD] + E^((k - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2cAW] + (b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2cAWAD])/
+     E^((\[Kappa] - \[Nu])*\[CapitalPsi][1]) + 
+    E^((k - \[Kappa])*\[CapitalPsi][1] + (-k + \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2cAWBD], {\[Nu], 1 + k, q}, 
+   {\[Kappa], 0, -1 + k}], {j, 0, 0}, {k, 1, -1 + q}], 
+ SecretTable[SecretSum[b[\[Nu]]^2*coeff[EG2G4c] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Nu]]^2*coeff[EG2G4cAW], 
+   {\[Nu], 1 + k, q}, {\[Kappa], \[Nu], \[Nu]}], {j, 0, 0}, {k, 1, -1 + q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2c] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2cAD] + E^((-\[Kappa] + \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG4G2cBD], {\[Nu], 1 + k, q}, {\[Kappa], k, k}], 
+  {j, 0, 0}, {k, 1, -1 + q}], SecretTable[
+  SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2c] + 
+    E^((-k + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2cAD] + E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2cAW] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2cAWAD] + 
+    E^((k - \[Nu])*\[CapitalPsi][1] + (-k + \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2cAWBD], {\[Nu], 0, -1 + k}, 
+   {\[Kappa], 1 + k, q}], {j, 0, 0}, {k, 1, -1 + q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2c] + 
+    E^((k - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2cAD] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2cAW] + E^((k - \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2cAWAD] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1] + (k - \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2cAWBD], {\[Nu], 0, -2 + k}, 
+   {\[Kappa], 1 + \[Nu], -1 + k}], {j, 0, 0}, {k, 2, q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2c] + 
+    E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2cAD] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2cAW] + E^((k - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2cAWAD] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1] + (k - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2cAWBD], {\[Nu], 1, -1 + k}, 
+   {\[Kappa], 0, -1 + \[Nu]}], {j, 0, 0}, {k, 2, q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4c] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G4cAW], {\[Nu], 0, -1 + k}, {\[Kappa], k, k}], {j, 0, 0}, 
+  {k, 1, q}], SecretTable[SecretSum[b[\[Nu]]^2*coeff[EG4G2c] + 
+    E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]^2*coeff[EG4G2cAD] + 
+    E^((k - \[Nu])*\[CapitalPsi][2])*b[\[Nu]]^2*coeff[EG4G2cBD], 
+   {\[Nu], 0, -1 + k}, {\[Kappa], \[Nu], \[Nu]}], {j, 0, 0}, {k, 1, q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2c] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2cAD] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG4G2cBD], {\[Nu], k, k}, {\[Kappa], 1 + k, q}], 
+  {j, 0, 0}, {k, 1, -1 + q}], SecretTable[
+  SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4c] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G4cAW], {\[Nu], k, k}, {\[Kappa], 0, -1 + k}], {j, 0, 0}, 
+  {k, 1, q}], SecretTable[SecretSum[b[\[Nu]]^2*coeff[EG6c], {\[Nu], k, k}, 
+   {\[Kappa], k, k}], {j, 0, 0}, {k, 1, q}], 
+ SecretTable[SecretSum[b[\[Nu]]*coeff[EG2G2c]*Subscript[a, 0] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG2G2cAW]*
+     Subscript[a, 0], {\[Nu], 1 + k, q}], {j, 0, 0}, {k, 1, -1 + q}], 
+ SecretTable[SecretSum[b[\[Nu]]*coeff[EG2G2c]*Subscript[a, 0] + 
+    E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG2G2cAW]*
+     Subscript[a, 0], {\[Nu], 0, -1 + k}], {j, 0, 0}, {k, 1, q}], 
+ SecretTable[SecretSum[b[\[Nu]]*coeff[EG4c]*Subscript[a, 0], {\[Nu], k, k}], 
+  {j, 0, 0}, {k, 1, q}], SecretTable[
+  SecretSum[b[\[Nu]]*coeff[EG2G2c]*Subscript[a, 0] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG2G2cAW]*
+     Subscript[a, 0], {\[Nu], 1 + k, q}], {j, 0, 0}, {k, 1, -1 + q}], 
+ SecretTable[SecretSum[b[\[Nu]]*coeff[EG2G2c]*Subscript[a, 0] + 
+    E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG2G2cAW]*
+     Subscript[a, 0], {\[Nu], 0, -1 + k}], {j, 0, 0}, {k, 1, q}], 
+ SecretTable[SecretSum[b[\[Nu]]*coeff[EG4c]*Subscript[a, 0], {\[Nu], k, k}], 
+  {j, 0, 0}, {k, 1, q}], SecretTable[coeff[EG2c]*Subscript[a, 0]^2, 
+  {j, 0, 0}, {k, 1, q}], SecretTable[
+  SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2c] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2cAD] + E^((-j + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2cAW] + E^((-j + \[Kappa])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2cAWAD] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1] + (\[Kappa] - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2cAWBD], {\[Nu], 1 + j, -1 + q}, 
+   {\[Kappa], 1 + \[Nu], q}], {j, 1, -2 + q}, {k, 0, 0}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2c] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2cAD] + E^((-j + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2cAW] + (b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2cAWAD])/
+     E^((j - \[Nu])*\[CapitalPsi][1]) + 
+    E^((-j + \[Kappa])*\[CapitalPsi][1] + (-\[Kappa] + \[Nu])*
+        \[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2cAWBD], 
+   {\[Nu], 2 + j, q}, {\[Kappa], 1 + j, -1 + \[Nu]}], {j, 1, -2 + q}, 
+  {k, 0, 0}], SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2c] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2cAD] + E^((j - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2cAW] + (b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2cAWAD])/
+     E^((\[Kappa] - \[Nu])*\[CapitalPsi][1]) + 
+    E^((j - \[Kappa])*\[CapitalPsi][1] + (-j + \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2cAWBD], {\[Nu], 1 + j, q}, 
+   {\[Kappa], 0, -1 + j}], {j, 1, -1 + q}, {k, 0, 0}], 
+ SecretTable[SecretSum[b[\[Nu]]^2*coeff[EG2G4c] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1])*b[\[Nu]]^2*coeff[EG2G4cAW], 
+   {\[Nu], 1 + j, q}, {\[Kappa], \[Nu], \[Nu]}], {j, 1, -1 + q}, {k, 0, 0}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2c] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2cAD] + E^((-\[Kappa] + \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG4G2cBD], {\[Nu], 1 + j, q}, {\[Kappa], j, j}], 
+  {j, 1, -1 + q}, {k, 0, 0}], SecretTable[
+  SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2c] + 
+    E^((-j + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2cAD] + E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2cAW] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2cAWAD] + 
+    E^((j - \[Nu])*\[CapitalPsi][1] + (-j + \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2cAWBD], {\[Nu], 0, -1 + j}, 
+   {\[Kappa], 1 + j, q}], {j, 1, -1 + q}, {k, 0, 0}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2c] + 
+    E^((j - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2cAD] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2cAW] + E^((j - \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2cAWAD] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1] + (j - \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2cAWBD], {\[Nu], 0, -2 + j}, 
+   {\[Kappa], 1 + \[Nu], -1 + j}], {j, 2, q}, {k, 0, 0}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2c] + 
+    E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2cAD] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2cAW] + E^((j - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2cAWAD] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1] + (j - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2cAWBD], {\[Nu], 1, -1 + j}, 
+   {\[Kappa], 0, -1 + \[Nu]}], {j, 2, q}, {k, 0, 0}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4c] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G4cAW], {\[Nu], 0, -1 + j}, {\[Kappa], j, j}], {j, 1, q}, 
+  {k, 0, 0}], SecretTable[SecretSum[b[\[Nu]]^2*coeff[EG4G2c] + 
+    E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]^2*coeff[EG4G2cAD] + 
+    E^((j - \[Nu])*\[CapitalPsi][2])*b[\[Nu]]^2*coeff[EG4G2cBD], 
+   {\[Nu], 0, -1 + j}, {\[Kappa], \[Nu], \[Nu]}], {j, 1, q}, {k, 0, 0}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2c] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2cAD] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG4G2cBD], {\[Nu], j, j}, {\[Kappa], 1 + j, q}], 
+  {j, 1, -1 + q}, {k, 0, 0}], SecretTable[
+  SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4c] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G4cAW], {\[Nu], j, j}, {\[Kappa], 0, -1 + j}], {j, 1, q}, 
+  {k, 0, 0}], SecretTable[SecretSum[b[\[Nu]]^2*coeff[EG6c], {\[Nu], j, j}, 
+   {\[Kappa], j, j}], {j, 1, q}, {k, 0, 0}], 
+ SecretTable[SecretSum[b[\[Kappa]]*coeff[EG2G2c]*Subscript[a, 0] + 
+    E^((-j + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*coeff[EG2G2cAW]*
+     Subscript[a, 0], {\[Kappa], 1 + j, q}], {j, 1, -1 + q}, {k, 0, 0}], 
+ SecretTable[SecretSum[b[\[Kappa]]*coeff[EG2G2c]*Subscript[a, 0] + 
+    E^((j - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*coeff[EG2G2cAW]*
+     Subscript[a, 0], {\[Kappa], 0, -1 + j}], {j, 1, q}, {k, 0, 0}], 
+ SecretTable[SecretSum[b[\[Kappa]]*coeff[EG4c]*Subscript[a, 0], 
+   {\[Kappa], j, j}], {j, 1, q}, {k, 0, 0}], 
+ SecretTable[SecretSum[b[\[Kappa]]*coeff[EG2G2c]*Subscript[a, 0] + 
+    E^((-j + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*coeff[EG2G2cAW]*
+     Subscript[a, 0], {\[Kappa], 1 + j, q}], {j, 1, -1 + q}, {k, 0, 0}], 
+ SecretTable[SecretSum[b[\[Kappa]]*coeff[EG2G2c]*Subscript[a, 0] + 
+    E^((j - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*coeff[EG2G2cAW]*
+     Subscript[a, 0], {\[Kappa], 0, -1 + j}], {j, 1, q}, {k, 0, 0}], 
+ SecretTable[SecretSum[b[\[Kappa]]*coeff[EG4c]*Subscript[a, 0], 
+   {\[Kappa], j, j}], {j, 1, q}, {k, 0, 0}], 
+ SecretTable[coeff[EG2c]*Subscript[a, 0]^2, {j, 1, q}, {k, 0, 0}], 
+ SecretTable[coeff[EG2G2c]*Subscript[a, 0]^2 + E^((-j + k)*\[CapitalPsi][1])*
+    coeff[EG2G2cAW]*Subscript[a, 0]^2, {j, 1, -1 + q}, {k, 1 + j, q}], 
+ SecretTable[coeff[EG2G2c]*Subscript[a, 0]^2 + E^((j - k)*\[CapitalPsi][1])*
+    coeff[EG2G2cAW]*Subscript[a, 0]^2, {j, 2, q}, {k, 1, -1 + j}], 
+ SecretTable[coeff[EG4c]*Subscript[a, 0]^2, {j, 1, q}, {k, j, j}], 
+ SecretTable[SecretSum[b[\[Nu]]*coeff[EG2G2G2c]*Subscript[a, 0] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG2G2G2cAD]*
+     Subscript[a, 0] + E^((-j + k)*\[CapitalPsi][1])*b[\[Nu]]*
+     coeff[EG2G2G2cAW]*Subscript[a, 0] + E^((-j + \[Nu])*\[CapitalPsi][1])*
+     b[\[Nu]]*coeff[EG2G2G2cAWAD]*Subscript[a, 0] + 
+    E^((-j + k)*\[CapitalPsi][1] + (-k + \[Nu])*\[CapitalPsi][2])*b[\[Nu]]*
+     coeff[EG2G2G2cAWBD]*Subscript[a, 0], {\[Nu], 1 + k, q}], {j, 1, -2 + q}, 
+  {k, 1 + j, -1 + q}], SecretTable[
+  SecretSum[b[\[Nu]]*coeff[EG2G2G2c]*Subscript[a, 0] + 
+    E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG2G2G2cAD]*
+     Subscript[a, 0] + E^((-j + \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*
+     coeff[EG2G2G2cAW]*Subscript[a, 0] + E^((-j + k)*\[CapitalPsi][1])*
+     b[\[Nu]]*coeff[EG2G2G2cAWAD]*Subscript[a, 0] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1] + (k - \[Nu])*\[CapitalPsi][2])*b[\[Nu]]*
+     coeff[EG2G2G2cAWBD]*Subscript[a, 0], {\[Nu], 1 + j, -1 + k}], 
+  {j, 1, -2 + q}, {k, 2 + j, q}], 
+ SecretTable[SecretSum[b[\[Nu]]*coeff[EG2G2G2c]*Subscript[a, 0] + 
+    E^((-j + k)*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG2G2G2cAD]*
+     Subscript[a, 0] + E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*
+     coeff[EG2G2G2cAW]*Subscript[a, 0] + E^((k - \[Nu])*\[CapitalPsi][1])*
+     b[\[Nu]]*coeff[EG2G2G2cAWAD]*Subscript[a, 0] + 
+    E^((j - \[Nu])*\[CapitalPsi][1] + (-j + k)*\[CapitalPsi][2])*b[\[Nu]]*
+     coeff[EG2G2G2cAWBD]*Subscript[a, 0], {\[Nu], 0, -1 + j}], 
+  {j, 1, -1 + q}, {k, 1 + j, q}], 
+ SecretTable[SecretSum[b[\[Nu]]*coeff[EG2G4c]*Subscript[a, 0] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG2G4cAW]*
+     Subscript[a, 0], {\[Nu], k, k}], {j, 1, -1 + q}, {k, 1 + j, q}], 
+ SecretTable[SecretSum[b[\[Nu]]*coeff[EG4G2c]*Subscript[a, 0] + 
+    E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG4G2cAD]*
+     Subscript[a, 0] + E^((k - \[Nu])*\[CapitalPsi][2])*b[\[Nu]]*
+     coeff[EG4G2cBD]*Subscript[a, 0], {\[Nu], j, j}], {j, 1, -1 + q}, 
+  {k, 1 + j, q}], SecretTable[
+  SecretSum[b[\[Nu]]*coeff[EG2G2G2c]*Subscript[a, 0] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG2G2G2cAD]*
+     Subscript[a, 0] + E^((j - k)*\[CapitalPsi][1])*b[\[Nu]]*
+     coeff[EG2G2G2cAW]*Subscript[a, 0] + E^((-k + \[Nu])*\[CapitalPsi][1])*
+     b[\[Nu]]*coeff[EG2G2G2cAWAD]*Subscript[a, 0] + 
+    E^((j - k)*\[CapitalPsi][1] + (-j + \[Nu])*\[CapitalPsi][2])*b[\[Nu]]*
+     coeff[EG2G2G2cAWBD]*Subscript[a, 0], {\[Nu], 1 + j, q}], {j, 2, -1 + q}, 
+  {k, 1, -1 + j}], SecretTable[
+  SecretSum[b[\[Nu]]*coeff[EG2G2G2c]*Subscript[a, 0] + 
+    E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG2G2G2cAD]*
+     Subscript[a, 0] + E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*
+     coeff[EG2G2G2cAW]*Subscript[a, 0] + E^((j - k)*\[CapitalPsi][1])*
+     b[\[Nu]]*coeff[EG2G2G2cAWAD]*Subscript[a, 0] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1] + (j - \[Nu])*\[CapitalPsi][2])*b[\[Nu]]*
+     coeff[EG2G2G2cAWBD]*Subscript[a, 0], {\[Nu], 1 + k, -1 + j}], {j, 3, q}, 
+  {k, 1, -2 + j}], SecretTable[
+  SecretSum[b[\[Nu]]*coeff[EG2G2G2c]*Subscript[a, 0] + 
+    E^((j - k)*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG2G2G2cAD]*Subscript[a, 0] + 
+    E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG2G2G2cAW]*
+     Subscript[a, 0] + E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*
+     coeff[EG2G2G2cAWAD]*Subscript[a, 0] + 
+    E^((k - \[Nu])*\[CapitalPsi][1] + (j - k)*\[CapitalPsi][2])*b[\[Nu]]*
+     coeff[EG2G2G2cAWBD]*Subscript[a, 0], {\[Nu], 0, -1 + k}], {j, 2, q}, 
+  {k, 1, -1 + j}], SecretTable[
+  SecretSum[b[\[Nu]]*coeff[EG2G4c]*Subscript[a, 0] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG2G4cAW]*
+     Subscript[a, 0], {\[Nu], j, j}], {j, 2, q}, {k, 1, -1 + j}], 
+ SecretTable[SecretSum[b[\[Nu]]*coeff[EG4G2c]*Subscript[a, 0] + 
+    E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG4G2cAD]*
+     Subscript[a, 0] + E^((j - \[Nu])*\[CapitalPsi][2])*b[\[Nu]]*
+     coeff[EG4G2cBD]*Subscript[a, 0], {\[Nu], k, k}], {j, 2, q}, 
+  {k, 1, -1 + j}], SecretTable[
+  SecretSum[b[\[Nu]]*coeff[EG4G2c]*Subscript[a, 0] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG4G2cAD]*
+     Subscript[a, 0] + E^((-k + \[Nu])*\[CapitalPsi][2])*b[\[Nu]]*
+     coeff[EG4G2cBD]*Subscript[a, 0], {\[Nu], 1 + j, q}], {j, 1, -1 + q}, 
+  {k, j, j}], SecretTable[SecretSum[b[\[Nu]]*coeff[EG2G4c]*Subscript[a, 0] + 
+    E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG2G4cAW]*
+     Subscript[a, 0], {\[Nu], 0, -1 + j}], {j, 1, q}, {k, j, j}], 
+ SecretTable[SecretSum[b[\[Nu]]*coeff[EG6c]*Subscript[a, 0], {\[Nu], j, j}], 
+  {j, 1, q}, {k, j, j}], SecretTable[
+  SecretSum[b[\[Nu]]*coeff[EG2G2G2c]*Subscript[a, 0] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG2G2G2cAD]*
+     Subscript[a, 0] + E^((-j + k)*\[CapitalPsi][1])*b[\[Nu]]*
+     coeff[EG2G2G2cAW]*Subscript[a, 0] + E^((-j + \[Nu])*\[CapitalPsi][1])*
+     b[\[Nu]]*coeff[EG2G2G2cAWAD]*Subscript[a, 0] + 
+    E^((-j + k)*\[CapitalPsi][1] + (-k + \[Nu])*\[CapitalPsi][2])*b[\[Nu]]*
+     coeff[EG2G2G2cAWBD]*Subscript[a, 0], {\[Nu], 1 + k, q}], {j, 1, -2 + q}, 
+  {k, 1 + j, -1 + q}], SecretTable[
+  SecretSum[b[\[Nu]]*coeff[EG2G2G2c]*Subscript[a, 0] + 
+    E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG2G2G2cAD]*
+     Subscript[a, 0] + E^((-j + \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*
+     coeff[EG2G2G2cAW]*Subscript[a, 0] + E^((-j + k)*\[CapitalPsi][1])*
+     b[\[Nu]]*coeff[EG2G2G2cAWAD]*Subscript[a, 0] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1] + (k - \[Nu])*\[CapitalPsi][2])*b[\[Nu]]*
+     coeff[EG2G2G2cAWBD]*Subscript[a, 0], {\[Nu], 1 + j, -1 + k}], 
+  {j, 1, -2 + q}, {k, 2 + j, q}], 
+ SecretTable[SecretSum[b[\[Nu]]*coeff[EG2G2G2c]*Subscript[a, 0] + 
+    E^((-j + k)*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG2G2G2cAD]*
+     Subscript[a, 0] + E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*
+     coeff[EG2G2G2cAW]*Subscript[a, 0] + E^((k - \[Nu])*\[CapitalPsi][1])*
+     b[\[Nu]]*coeff[EG2G2G2cAWAD]*Subscript[a, 0] + 
+    E^((j - \[Nu])*\[CapitalPsi][1] + (-j + k)*\[CapitalPsi][2])*b[\[Nu]]*
+     coeff[EG2G2G2cAWBD]*Subscript[a, 0], {\[Nu], 0, -1 + j}], 
+  {j, 1, -1 + q}, {k, 1 + j, q}], 
+ SecretTable[SecretSum[b[\[Nu]]*coeff[EG2G4c]*Subscript[a, 0] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG2G4cAW]*
+     Subscript[a, 0], {\[Nu], k, k}], {j, 1, -1 + q}, {k, 1 + j, q}], 
+ SecretTable[SecretSum[b[\[Nu]]*coeff[EG4G2c]*Subscript[a, 0] + 
+    E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG4G2cAD]*
+     Subscript[a, 0] + E^((k - \[Nu])*\[CapitalPsi][2])*b[\[Nu]]*
+     coeff[EG4G2cBD]*Subscript[a, 0], {\[Nu], j, j}], {j, 1, -1 + q}, 
+  {k, 1 + j, q}], SecretTable[
+  SecretSum[b[\[Nu]]*coeff[EG2G2G2c]*Subscript[a, 0] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG2G2G2cAD]*
+     Subscript[a, 0] + E^((j - k)*\[CapitalPsi][1])*b[\[Nu]]*
+     coeff[EG2G2G2cAW]*Subscript[a, 0] + E^((-k + \[Nu])*\[CapitalPsi][1])*
+     b[\[Nu]]*coeff[EG2G2G2cAWAD]*Subscript[a, 0] + 
+    E^((j - k)*\[CapitalPsi][1] + (-j + \[Nu])*\[CapitalPsi][2])*b[\[Nu]]*
+     coeff[EG2G2G2cAWBD]*Subscript[a, 0], {\[Nu], 1 + j, q}], {j, 2, -1 + q}, 
+  {k, 1, -1 + j}], SecretTable[
+  SecretSum[b[\[Nu]]*coeff[EG2G2G2c]*Subscript[a, 0] + 
+    E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG2G2G2cAD]*
+     Subscript[a, 0] + E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*
+     coeff[EG2G2G2cAW]*Subscript[a, 0] + E^((j - k)*\[CapitalPsi][1])*
+     b[\[Nu]]*coeff[EG2G2G2cAWAD]*Subscript[a, 0] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1] + (j - \[Nu])*\[CapitalPsi][2])*b[\[Nu]]*
+     coeff[EG2G2G2cAWBD]*Subscript[a, 0], {\[Nu], 1 + k, -1 + j}], {j, 3, q}, 
+  {k, 1, -2 + j}], SecretTable[
+  SecretSum[b[\[Nu]]*coeff[EG2G2G2c]*Subscript[a, 0] + 
+    E^((j - k)*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG2G2G2cAD]*Subscript[a, 0] + 
+    E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG2G2G2cAW]*
+     Subscript[a, 0] + E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*
+     coeff[EG2G2G2cAWAD]*Subscript[a, 0] + 
+    E^((k - \[Nu])*\[CapitalPsi][1] + (j - k)*\[CapitalPsi][2])*b[\[Nu]]*
+     coeff[EG2G2G2cAWBD]*Subscript[a, 0], {\[Nu], 0, -1 + k}], {j, 2, q}, 
+  {k, 1, -1 + j}], SecretTable[
+  SecretSum[b[\[Nu]]*coeff[EG2G4c]*Subscript[a, 0] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG2G4cAW]*
+     Subscript[a, 0], {\[Nu], j, j}], {j, 2, q}, {k, 1, -1 + j}], 
+ SecretTable[SecretSum[b[\[Nu]]*coeff[EG4G2c]*Subscript[a, 0] + 
+    E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG4G2cAD]*
+     Subscript[a, 0] + E^((j - \[Nu])*\[CapitalPsi][2])*b[\[Nu]]*
+     coeff[EG4G2cBD]*Subscript[a, 0], {\[Nu], k, k}], {j, 2, q}, 
+  {k, 1, -1 + j}], SecretTable[
+  SecretSum[b[\[Nu]]*coeff[EG4G2c]*Subscript[a, 0] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG4G2cAD]*
+     Subscript[a, 0] + E^((-k + \[Nu])*\[CapitalPsi][2])*b[\[Nu]]*
+     coeff[EG4G2cBD]*Subscript[a, 0], {\[Nu], 1 + j, q}], {j, 1, -1 + q}, 
+  {k, j, j}], SecretTable[SecretSum[b[\[Nu]]*coeff[EG2G4c]*Subscript[a, 0] + 
+    E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]*coeff[EG2G4cAW]*
+     Subscript[a, 0], {\[Nu], 0, -1 + j}], {j, 1, q}, {k, j, j}], 
+ SecretTable[SecretSum[b[\[Nu]]*coeff[EG6c]*Subscript[a, 0], {\[Nu], j, j}], 
+  {j, 1, q}, {k, j, j}], SecretTable[
+  SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2c] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAD] + E^((-k + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cADAH] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1] + (\[Kappa] - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cADBH] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAH] + E^((-j + k)*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAW] + E^((-j + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWAD] + E^((-j + \[Kappa])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWADAH] + 
+    E^(-(j*\[CapitalPsi][1]) + \[Nu]*\[CapitalPsi][1] + 
+       \[Kappa]*\[CapitalPsi][2] - \[Nu]*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWADBH] + 
+    E^((-j + k + \[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAH] + E^((-j + k)*\[CapitalPsi][1] + 
+       (\[Kappa] - \[Nu])*\[CapitalPsi][1] + (-k + \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWAHBD] + 
+    E^((-j + k)*\[CapitalPsi][1] + (-k + \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWBD] + 
+    E^(-(j*\[CapitalPsi][1]) + k*\[CapitalPsi][1] - k*\[CapitalPsi][2] + 
+       \[Kappa]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDBH] + 
+    E^((-j + k)*\[CapitalPsi][1] + (-k + \[Nu])*\[CapitalPsi][2] + 
+       (\[Kappa] - \[Nu])*\[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDCH], {\[Nu], 1 + k, -1 + q}, 
+   {\[Kappa], 1 + \[Nu], q}], {j, 1, -3 + q}, {k, 1 + j, -2 + q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2c] + 
+    E^((-k + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAD] + E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cADAH] + 
+    E^((-k + \[Kappa])*\[CapitalPsi][1] + (-\[Kappa] + \[Nu])*
+        \[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cADBH] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAH] + E^((-j + k)*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAW] + E^((-j + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWAD] + E^((-j + \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWADAH] + 
+    E^(-(j*\[CapitalPsi][1]) + \[Kappa]*\[CapitalPsi][1] - 
+       \[Kappa]*\[CapitalPsi][2] + \[Nu]*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWADBH] + 
+    E^((-j + k - \[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAH] + E^((-j + k)*\[CapitalPsi][1] + 
+       (-\[Kappa] + \[Nu])*\[CapitalPsi][1] + (-k + \[Kappa])*
+        \[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWAHBD] + 
+    E^((-j + k)*\[CapitalPsi][1] + (-k + \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBD] + 
+    E^(-(j*\[CapitalPsi][1]) + k*\[CapitalPsi][1] - k*\[CapitalPsi][2] + 
+       \[Nu]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBDBH] + 
+    E^((-j + k)*\[CapitalPsi][1] + (-k + \[Kappa])*\[CapitalPsi][2] + 
+       (-\[Kappa] + \[Nu])*\[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDCH], {\[Nu], 2 + k, q}, 
+   {\[Kappa], 1 + k, -1 + \[Nu]}], {j, 1, -3 + q}, {k, 1 + j, -2 + q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2c] + 
+    E^((k - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAD] + E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cADAH] + 
+    E^((k - \[Kappa])*\[CapitalPsi][1] + (-k + \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cADBH] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAH] + E^((-j + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAW] + E^((-j + k)*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWAD] + E^((-j + \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWADAH] + 
+    E^(-(j*\[CapitalPsi][1]) + k*\[CapitalPsi][1] - k*\[CapitalPsi][2] + 
+       \[Nu]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWADBH] + 
+    E^((-j - k + \[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAH] + E^((-j + \[Kappa])*\[CapitalPsi][1] + 
+       (-k + \[Nu])*\[CapitalPsi][1] + (k - \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWAHBD] + 
+    E^((-j + \[Kappa])*\[CapitalPsi][1] + (k - \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBD] + 
+    E^(-(j*\[CapitalPsi][1]) + \[Kappa]*\[CapitalPsi][1] - 
+       \[Kappa]*\[CapitalPsi][2] + \[Nu]*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWBDBH] + 
+    E^((-j + \[Kappa])*\[CapitalPsi][1] + (k - \[Kappa])*\[CapitalPsi][2] + 
+       (-k + \[Nu])*\[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDCH], {\[Nu], 1 + k, q}, {\[Kappa], 1 + j, -1 + k}], 
+  {j, 1, -3 + q}, {k, 2 + j, -1 + q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2c] + 
+    E^((-j + k)*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAD] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cADAH] + E^((-j + k)*\[CapitalPsi][1] + 
+       (-k + \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cADBH] + E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAH] + E^((j - \[Kappa])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAW] + 
+    E^((k - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAD] + E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWADAH] + 
+    E^(k*\[CapitalPsi][1] - \[Kappa]*\[CapitalPsi][1] - k*\[CapitalPsi][2] + 
+       \[Nu]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWADBH] + 
+    E^((j - k - \[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAH] + E^((j - \[Kappa])*\[CapitalPsi][1] + 
+       (-k + \[Nu])*\[CapitalPsi][1] + (-j + k)*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWAHBD] + 
+    E^((j - \[Kappa])*\[CapitalPsi][1] + (-j + k)*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBD] + 
+    E^(j*\[CapitalPsi][1] - \[Kappa]*\[CapitalPsi][1] - j*\[CapitalPsi][2] + 
+       \[Nu]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBDBH] + 
+    E^((j - \[Kappa])*\[CapitalPsi][1] + (-j + k)*\[CapitalPsi][2] + 
+       (-k + \[Nu])*\[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDCH], {\[Nu], 1 + k, q}, {\[Kappa], 0, -1 + j}], 
+  {j, 1, -2 + q}, {k, 1 + j, -1 + q}], 
+ SecretTable[SecretSum[b[\[Nu]]^2*coeff[EG2G2G4c] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Nu]]^2*coeff[EG2G2G4cAD] + 
+    E^((-j + k)*\[CapitalPsi][1])*b[\[Nu]]^2*coeff[EG2G2G4cAW] + 
+    (b[\[Nu]]^2*coeff[EG2G2G4cAWAD])/E^((j - \[Nu])*\[CapitalPsi][1]) + 
+    E^((-j + k)*\[CapitalPsi][1] + (-k + \[Nu])*\[CapitalPsi][2])*b[\[Nu]]^2*
+     coeff[EG2G2G4cAWBD], {\[Nu], 1 + k, q}, {\[Kappa], \[Nu], \[Nu]}], 
+  {j, 1, -2 + q}, {k, 1 + j, -1 + q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2c] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G4G2cAH] + E^((-j + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G4G2cAW] + (b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWAH])/
+     E^((j - \[Nu])*\[CapitalPsi][1]) + 
+    E^((-j + \[Kappa])*\[CapitalPsi][1] + (-\[Kappa] + \[Nu])*
+        \[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWBH] + 
+    E^((-j + \[Kappa])*\[CapitalPsi][1] + (-\[Kappa] + \[Nu])*
+        \[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWCH] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G4G2cBH], {\[Nu], 1 + k, q}, {\[Kappa], k, k}], {j, 1, -2 + q}, 
+  {k, 1 + j, -1 + q}], SecretTable[
+  SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2c] + 
+    E^((k - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cAD] + E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG4G2G2cADAH] + 
+    E^((k - \[Kappa])*\[CapitalPsi][1] + (-k + \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cADBH] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cAH] + E^((-k + \[Nu])*\[CapitalPsi][1] + 
+       (k - \[Kappa])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cAHBD] + E^((k - \[Kappa])*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG4G2G2cBD] + E^((-\[Kappa] + \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cBDBH] + 
+    E^((k - \[Kappa])*\[CapitalPsi][2] + (-k + \[Nu])*\[CapitalPsi][3])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cBDCH], {\[Nu], 1 + k, q}, 
+   {\[Kappa], j, j}], {j, 1, -2 + q}, {k, 1 + j, -1 + q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2c] + 
+    E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAD] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cADAH] + 
+    E^((k - \[Nu])*\[CapitalPsi][1] + (-k + \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cADBH] + 
+    E^((-k + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAH] + E^((-j + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAW] + E^((-j + k)*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWAD] + E^((-j + \[Kappa])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWADAH] + 
+    E^(-(j*\[CapitalPsi][1]) + k*\[CapitalPsi][1] - k*\[CapitalPsi][2] + 
+       \[Kappa]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWADBH] + 
+    E^((-j - k + \[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAH] + E^((-k + \[Kappa])*\[CapitalPsi][1] + 
+       (-j + \[Nu])*\[CapitalPsi][1] + (k - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWAHBD] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1] + (k - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBD] + 
+    E^(-(j*\[CapitalPsi][1]) + \[Nu]*\[CapitalPsi][1] + 
+       \[Kappa]*\[CapitalPsi][2] - \[Nu]*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWBDBH] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1] + (k - \[Nu])*\[CapitalPsi][2] + 
+       (-k + \[Kappa])*\[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDCH], {\[Nu], 1 + j, -1 + k}, {\[Kappa], 1 + k, q}], 
+  {j, 1, -3 + q}, {k, 2 + j, -1 + q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2c] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAD] + E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cADAH] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1] + (k - \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cADBH] + 
+    E^((k - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAH] + E^((-j + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAW] + E^((-j + \[Kappa])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWAD] + 
+    E^((-j + k)*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWADAH] + 
+    E^(-(j*\[CapitalPsi][1]) + \[Kappa]*\[CapitalPsi][1] + 
+       k*\[CapitalPsi][2] - \[Kappa]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWADBH] + 
+    E^((-j + k - \[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAH] + E^(-(j*\[CapitalPsi][1]) + k*\[CapitalPsi][1] - 
+       (\[Kappa] - \[Nu])*(\[CapitalPsi][1] - \[CapitalPsi][2]))*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWAHBD] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1] + (\[Kappa] - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBD] + 
+    E^(-(j*\[CapitalPsi][1]) + \[Nu]*\[CapitalPsi][1] + k*\[CapitalPsi][2] - 
+       \[Nu]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBDBH] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1] + (\[Kappa] - \[Nu])*\[CapitalPsi][2] + 
+       (k - \[Kappa])*\[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDCH], {\[Nu], 1 + j, -2 + k}, 
+   {\[Kappa], 1 + \[Nu], -1 + k}], {j, 1, -3 + q}, {k, 3 + j, q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2c] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAD] + E^((k - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cADAH] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1] + (k - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cADBH] + 
+    E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAH] + E^((-j + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAW] + E^((-j + \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWAD] + 
+    E^((-j + k)*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWADAH] + 
+    E^(-(j*\[CapitalPsi][1]) + \[Nu]*\[CapitalPsi][1] + k*\[CapitalPsi][2] - 
+       \[Nu]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWADBH] + 
+    E^((-j + k + \[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAH] + E^(-(j*\[CapitalPsi][1]) + k*\[CapitalPsi][1] + 
+       (\[Kappa] - \[Nu])*(\[CapitalPsi][1] - \[CapitalPsi][2]))*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWAHBD] + 
+    E^((-j + \[Kappa])*\[CapitalPsi][1] + (-\[Kappa] + \[Nu])*
+        \[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBD] + 
+    E^(-(j*\[CapitalPsi][1]) + \[Kappa]*\[CapitalPsi][1] + 
+       k*\[CapitalPsi][2] - \[Kappa]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDBH] + E^((-j + \[Kappa])*\[CapitalPsi][1] + 
+       (-\[Kappa] + \[Nu])*\[CapitalPsi][2] + (k - \[Nu])*\[CapitalPsi][3])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBDCH], {\[Nu], 2 + j, -1 + k}, 
+   {\[Kappa], 1 + j, -1 + \[Nu]}], {j, 1, -3 + q}, {k, 3 + j, q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2c] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAD] + E^((-j + k)*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cADAH] + E^((-j + \[Nu])*\[CapitalPsi][1] + 
+       (k - \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cADBH] + E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAH] + E^((j - \[Kappa])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAW] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAD] + E^((k - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWADAH] + 
+    E^(-(\[Kappa]*\[CapitalPsi][1]) + \[Nu]*\[CapitalPsi][1] + 
+       k*\[CapitalPsi][2] - \[Nu]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWADBH] + 
+    E^((j + k - \[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAH] + E^((j - \[Kappa])*\[CapitalPsi][1] + 
+       (k - \[Nu])*\[CapitalPsi][1] + (-j + \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWAHBD] + 
+    E^((j - \[Kappa])*\[CapitalPsi][1] + (-j + \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBD] + 
+    E^(j*\[CapitalPsi][1] - \[Kappa]*\[CapitalPsi][1] - j*\[CapitalPsi][2] + 
+       k*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBDBH] + 
+    E^((j - \[Kappa])*\[CapitalPsi][1] + (-j + \[Nu])*\[CapitalPsi][2] + 
+       (k - \[Nu])*\[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDCH], {\[Nu], 1 + j, -1 + k}, {\[Kappa], 0, -1 + j}], 
+  {j, 1, -2 + q}, {k, 2 + j, q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4c] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G4cAD] + E^((-j + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G4cAW] + E^((-j + \[Kappa])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4cAWAD] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1] + (\[Kappa] - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4cAWBD], {\[Nu], 1 + j, -1 + k}, 
+   {\[Kappa], k, k}], {j, 1, -2 + q}, {k, 2 + j, q}], 
+ SecretTable[SecretSum[b[\[Nu]]^2*coeff[EG2G4G2c] + 
+    E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]^2*coeff[EG2G4G2cAH] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1])*b[\[Nu]]^2*coeff[EG2G4G2cAW] + 
+    E^((-j + k)*\[CapitalPsi][1])*b[\[Nu]]^2*coeff[EG2G4G2cAWAH] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1] + (k - \[Nu])*\[CapitalPsi][2])*
+     b[\[Nu]]^2*coeff[EG2G4G2cAWBH] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1] + (k - \[Nu])*\[CapitalPsi][3])*
+     b[\[Nu]]^2*coeff[EG2G4G2cAWCH] + E^((k - \[Nu])*\[CapitalPsi][2])*
+     b[\[Nu]]^2*coeff[EG2G4G2cBH], {\[Nu], 1 + j, -1 + k}, 
+   {\[Kappa], \[Nu], \[Nu]}], {j, 1, -2 + q}, {k, 2 + j, q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2c] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cAD] + E^((k - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG4G2G2cADAH] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1] + (k - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cADBH] + 
+    E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cAH] + 
+    E^((k - \[Nu])*\[CapitalPsi][1] + (-\[Kappa] + \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cAHBD] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cBD] + E^((k - \[Kappa])*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG4G2G2cBDBH] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][2] + (k - \[Nu])*\[CapitalPsi][3])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cBDCH], {\[Nu], 1 + j, -1 + k}, 
+   {\[Kappa], j, j}], {j, 1, -2 + q}, {k, 2 + j, q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2c] + 
+    E^((-j + k)*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAD] + 
+    E^((-j + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cADAH] + E^((-j + k)*\[CapitalPsi][1] + 
+       (-k + \[Kappa])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cADBH] + E^((-k + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAH] + E^((j - \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAW] + 
+    E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAD] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWADAH] + 
+    E^(k*\[CapitalPsi][1] - \[Nu]*\[CapitalPsi][1] - k*\[CapitalPsi][2] + 
+       \[Kappa]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWADBH] + 
+    E^((j - k + \[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAH] + E^((-k + \[Kappa])*\[CapitalPsi][1] + 
+       (j - \[Nu])*\[CapitalPsi][1] + (-j + k)*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWAHBD] + 
+    E^((j - \[Nu])*\[CapitalPsi][1] + (-j + k)*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWBD] + 
+    E^(j*\[CapitalPsi][1] - \[Nu]*\[CapitalPsi][1] - j*\[CapitalPsi][2] + 
+       \[Kappa]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDBH] + 
+    E^((j - \[Nu])*\[CapitalPsi][1] + (-j + k)*\[CapitalPsi][2] + 
+       (-k + \[Kappa])*\[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDCH], {\[Nu], 0, -1 + j}, {\[Kappa], 1 + k, q}], 
+  {j, 1, -2 + q}, {k, 1 + j, -1 + q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2c] + 
+    E^((-j + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAD] + E^((-j + k)*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cADAH] + E^((-j + \[Kappa])*\[CapitalPsi][1] + 
+       (k - \[Kappa])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cADBH] + E^((k - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAH] + E^((j - \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAW] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAD] + E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWADAH] + 
+    E^(\[Kappa]*\[CapitalPsi][1] - \[Nu]*\[CapitalPsi][1] + 
+       k*\[CapitalPsi][2] - \[Kappa]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWADBH] + 
+    E^((j + k - \[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAH] + E^((k - \[Kappa])*\[CapitalPsi][1] + 
+       (j - \[Nu])*\[CapitalPsi][1] + (-j + \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWAHBD] + 
+    E^((j - \[Nu])*\[CapitalPsi][1] + (-j + \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBD] + 
+    E^(j*\[CapitalPsi][1] - \[Nu]*\[CapitalPsi][1] - j*\[CapitalPsi][2] + 
+       k*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBDBH] + 
+    E^((j - \[Nu])*\[CapitalPsi][1] + (-j + \[Kappa])*\[CapitalPsi][2] + 
+       (k - \[Kappa])*\[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDCH], {\[Nu], 0, -1 + j}, {\[Kappa], 1 + j, -1 + k}], 
+  {j, 1, -2 + q}, {k, 2 + j, q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2c] + 
+    E^((j - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAD] + E^((k - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cADAH] + 
+    E^((j - \[Kappa])*\[CapitalPsi][1] + (-j + k)*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cADBH] + 
+    E^((-j + k)*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAH] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAW] + E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWAD] + E^((k - \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWADAH] + 
+    E^(j*\[CapitalPsi][1] - \[Nu]*\[CapitalPsi][1] - j*\[CapitalPsi][2] + 
+       k*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWADBH] + 
+    E^((-j + k + \[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAH] + E^((-j + k)*\[CapitalPsi][1] + 
+       (\[Kappa] - \[Nu])*\[CapitalPsi][1] + (j - \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWAHBD] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1] + (j - \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBD] + 
+    E^(\[Kappa]*\[CapitalPsi][1] - \[Nu]*\[CapitalPsi][1] + 
+       k*\[CapitalPsi][2] - \[Kappa]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDBH] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][1] + 
+       (j - \[Kappa])*\[CapitalPsi][2] + (-j + k)*\[CapitalPsi][3])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBDCH], {\[Nu], 0, -2 + j}, 
+   {\[Kappa], 1 + \[Nu], -1 + j}], {j, 2, -1 + q}, {k, 1 + j, q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2c] + 
+    E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAD] + E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cADAH] + 
+    E^((j - \[Nu])*\[CapitalPsi][1] + (-j + k)*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cADBH] + E^((-j + k)*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAH] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAW] + E^((j - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWAD] + E^((k - \[Kappa])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWADAH] + 
+    E^(j*\[CapitalPsi][1] - \[Kappa]*\[CapitalPsi][1] - j*\[CapitalPsi][2] + 
+       k*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWADBH] + 
+    E^((-j + k - \[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAH] + E^((-j + k)*\[CapitalPsi][1] + 
+       (-\[Kappa] + \[Nu])*\[CapitalPsi][1] + (j - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWAHBD] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1] + (j - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBD] + 
+    E^(-(\[Kappa]*\[CapitalPsi][1]) + \[Nu]*\[CapitalPsi][1] + 
+       k*\[CapitalPsi][2] - \[Nu]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDBH] + E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1] + 
+       (j - \[Nu])*\[CapitalPsi][2] + (-j + k)*\[CapitalPsi][3])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWBDCH], {\[Nu], 1, -1 + j}, 
+   {\[Kappa], 0, -1 + \[Nu]}], {j, 2, -1 + q}, {k, 1 + j, q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4c] + 
+    E^((-j + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G4cAD] + E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G4cAW] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4cAWAD] + 
+    E^((j - \[Nu])*\[CapitalPsi][1] + (-j + \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4cAWBD], {\[Nu], 0, -1 + j}, 
+   {\[Kappa], k, k}], {j, 1, -1 + q}, {k, 1 + j, q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2c] + 
+    E^((k - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G4G2cAH] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G4G2cAW] + E^((k - \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWAH] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1] + (k - \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWBH] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1] + (k - \[Kappa])*\[CapitalPsi][3])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWCH] + 
+    E^((k - \[Kappa])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G4G2cBH], {\[Nu], 0, -1 + j}, {\[Kappa], j, j}], 
+  {j, 1, -1 + q}, {k, 1 + j, q}], 
+ SecretTable[SecretSum[b[\[Nu]]^2*coeff[EG4G2G2c] + 
+    E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]^2*coeff[EG4G2G2cAD] + 
+    E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]^2*coeff[EG4G2G2cADAH] + 
+    E^((j - \[Nu])*\[CapitalPsi][1] + (-j + k)*\[CapitalPsi][2])*b[\[Nu]]^2*
+     coeff[EG4G2G2cADBH] + E^((-j + k)*\[CapitalPsi][1])*b[\[Nu]]^2*
+     coeff[EG4G2G2cAH] + E^((-j + k)*\[CapitalPsi][1] + 
+       (j - \[Nu])*\[CapitalPsi][2])*b[\[Nu]]^2*coeff[EG4G2G2cAHBD] + 
+    E^((j - \[Nu])*\[CapitalPsi][2])*b[\[Nu]]^2*coeff[EG4G2G2cBD] + 
+    E^((k - \[Nu])*\[CapitalPsi][2])*b[\[Nu]]^2*coeff[EG4G2G2cBDBH] + 
+    E^((j - \[Nu])*\[CapitalPsi][2] + (-j + k)*\[CapitalPsi][3])*b[\[Nu]]^2*
+     coeff[EG4G2G2cBDCH], {\[Nu], 0, -1 + j}, {\[Kappa], \[Nu], \[Nu]}], 
+  {j, 1, -1 + q}, {k, 1 + j, q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2c] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G4G2cAH] + E^((-j + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G4G2cAW] + (b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWAH])/
+     E^((j - \[Kappa])*\[CapitalPsi][1]) + 
+    E^((-j + \[Nu])*\[CapitalPsi][1] + (\[Kappa] - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWBH] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1] + (\[Kappa] - \[Nu])*\[CapitalPsi][3])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWCH] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G4G2cBH], {\[Nu], k, k}, {\[Kappa], 1 + k, q}], {j, 1, -2 + q}, 
+  {k, 1 + j, -1 + q}], SecretTable[
+  SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4c] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G4cAD] + E^((-j + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G4cAW] + E^((-j + \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4cAWAD] + 
+    E^((-j + \[Kappa])*\[CapitalPsi][1] + (-\[Kappa] + \[Nu])*
+        \[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4cAWBD], 
+   {\[Nu], k, k}, {\[Kappa], 1 + j, -1 + k}], {j, 1, -2 + q}, {k, 2 + j, q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4c] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G4cAD] + E^((j - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G4cAW] + E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4cAWAD] + 
+    E^((j - \[Kappa])*\[CapitalPsi][1] + (-j + \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4cAWBD], {\[Nu], k, k}, 
+   {\[Kappa], 0, -1 + j}], {j, 1, -1 + q}, {k, 1 + j, q}], 
+ SecretTable[SecretSum[b[\[Nu]]^2*coeff[EG2G6c] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1])*b[\[Nu]]^2*coeff[EG2G6cAW], 
+   {\[Nu], k, k}, {\[Kappa], k, k}], {j, 1, -1 + q}, {k, 1 + j, q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG4G4c] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G4cAD] + E^((-\[Kappa] + \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG4G4cBD], {\[Nu], k, k}, {\[Kappa], j, j}], 
+  {j, 1, -1 + q}, {k, 1 + j, q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2c] + 
+    E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cAD] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cADAH] + E^((k - \[Nu])*\[CapitalPsi][1] + 
+       (-k + \[Kappa])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cADBH] + E^((-k + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG4G2G2cAH] + 
+    E^((-k + \[Kappa])*\[CapitalPsi][1] + (k - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cAHBD] + 
+    E^((k - \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cBD] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cBDBH] + E^((k - \[Nu])*\[CapitalPsi][2] + 
+       (-k + \[Kappa])*\[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cBDCH], {\[Nu], j, j}, {\[Kappa], 1 + k, q}], 
+  {j, 1, -2 + q}, {k, 1 + j, -1 + q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2c] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cAD] + E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG4G2G2cADAH] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1] + (k - \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cADBH] + 
+    E^((k - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cAH] + E^((k - \[Kappa])*\[CapitalPsi][1] + 
+       (\[Kappa] - \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cAHBD] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cBD] + 
+    E^((k - \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cBDBH] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][2] + 
+       (k - \[Kappa])*\[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cBDCH], {\[Nu], j, j}, {\[Kappa], 1 + j, -1 + k}], 
+  {j, 1, -2 + q}, {k, 2 + j, q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2c] + 
+    E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAH] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G4G2cAW] + E^((k - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G4G2cAWAH] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1] + (k - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWBH] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1] + (k - \[Nu])*\[CapitalPsi][3])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWCH] + 
+    E^((k - \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cBH], 
+   {\[Nu], j, j}, {\[Kappa], 0, -1 + j}], {j, 1, -1 + q}, {k, 1 + j, q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG4G4c] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G4cAD] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG4G4cBD], {\[Nu], j, j}, {\[Kappa], k, k}], 
+  {j, 1, -1 + q}, {k, 1 + j, q}], 
+ SecretTable[SecretSum[b[\[Nu]]^2*coeff[EG6G2c] + 
+    E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]^2*coeff[EG6G2cAH] + 
+    E^((k - \[Nu])*\[CapitalPsi][2])*b[\[Nu]]^2*coeff[EG6G2cBH] + 
+    E^((k - \[Nu])*\[CapitalPsi][3])*b[\[Nu]]^2*coeff[EG6G2cCH], 
+   {\[Nu], j, j}, {\[Kappa], j, j}], {j, 1, -1 + q}, {k, 1 + j, q}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2c] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAD] + E^((-j + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cADAH] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1] + (\[Kappa] - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cADBH] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAH] + E^((j - k)*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAW] + E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWAD] + E^((-k + \[Kappa])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWADAH] + 
+    E^(-(k*\[CapitalPsi][1]) + \[Nu]*\[CapitalPsi][1] + 
+       \[Kappa]*\[CapitalPsi][2] - \[Nu]*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWADBH] + 
+    E^((j - k + \[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAH] + 
+    E^((j - k)*\[CapitalPsi][1] + (\[Kappa] - \[Nu])*\[CapitalPsi][1] + 
+       (-j + \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAHBD] + 
+    E^((j - k)*\[CapitalPsi][1] + (-j + \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWBD] + 
+    E^(j*\[CapitalPsi][1] - k*\[CapitalPsi][1] - j*\[CapitalPsi][2] + 
+       \[Kappa]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDBH] + 
+    E^((j - k)*\[CapitalPsi][1] + (-j + \[Nu])*\[CapitalPsi][2] + 
+       (\[Kappa] - \[Nu])*\[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDCH], {\[Nu], 1 + j, -1 + q}, 
+   {\[Kappa], 1 + \[Nu], q}], {j, 2, -2 + q}, {k, 1, -1 + j}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2c] + 
+    E^((-j + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAD] + E^((-j + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cADAH] + 
+    E^((-j + \[Kappa])*\[CapitalPsi][1] + (-\[Kappa] + \[Nu])*
+        \[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cADBH] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAH] + E^((j - k)*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAW] + E^((-k + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWAD] + E^((-k + \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWADAH] + 
+    E^(-(k*\[CapitalPsi][1]) + \[Kappa]*\[CapitalPsi][1] - 
+       \[Kappa]*\[CapitalPsi][2] + \[Nu]*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWADBH] + 
+    E^((j - k - \[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAH] + 
+    E^((j - k)*\[CapitalPsi][1] + (-\[Kappa] + \[Nu])*\[CapitalPsi][1] + 
+       (-j + \[Kappa])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAHBD] + 
+    E^((j - k)*\[CapitalPsi][1] + (-j + \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBD] + 
+    E^(j*\[CapitalPsi][1] - k*\[CapitalPsi][1] - j*\[CapitalPsi][2] + 
+       \[Nu]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBDBH] + 
+    E^((j - k)*\[CapitalPsi][1] + (-j + \[Kappa])*\[CapitalPsi][2] + 
+       (-\[Kappa] + \[Nu])*\[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDCH], {\[Nu], 2 + j, q}, 
+   {\[Kappa], 1 + j, -1 + \[Nu]}], {j, 2, -2 + q}, {k, 1, -1 + j}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2c] + 
+    E^((j - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAD] + E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cADAH] + 
+    E^((j - \[Kappa])*\[CapitalPsi][1] + (-j + \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cADBH] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAH] + E^((-k + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAW] + E^((j - k)*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWAD] + E^((-k + \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWADAH] + 
+    E^(j*\[CapitalPsi][1] - k*\[CapitalPsi][1] - j*\[CapitalPsi][2] + 
+       \[Nu]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWADBH] + 
+    E^((-j - k + \[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAH] + E^((-k + \[Kappa])*\[CapitalPsi][1] + 
+       (-j + \[Nu])*\[CapitalPsi][1] + (j - \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWAHBD] + 
+    E^((-k + \[Kappa])*\[CapitalPsi][1] + (j - \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBD] + 
+    E^(-(k*\[CapitalPsi][1]) + \[Kappa]*\[CapitalPsi][1] - 
+       \[Kappa]*\[CapitalPsi][2] + \[Nu]*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWBDBH] + 
+    E^((-k + \[Kappa])*\[CapitalPsi][1] + (j - \[Kappa])*\[CapitalPsi][2] + 
+       (-j + \[Nu])*\[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDCH], {\[Nu], 1 + j, q}, {\[Kappa], 1 + k, -1 + j}], 
+  {j, 3, -1 + q}, {k, 1, -2 + j}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2c] + 
+    E^((j - k)*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAD] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cADAH] + 
+    E^((j - k)*\[CapitalPsi][1] + (-j + \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cADBH] + E^((-j + \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAH] + 
+    E^((k - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAW] + E^((j - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWAD] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWADAH] + 
+    E^(j*\[CapitalPsi][1] - \[Kappa]*\[CapitalPsi][1] - j*\[CapitalPsi][2] + 
+       \[Nu]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWADBH] + 
+    E^((-j + k - \[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAH] + E^((k - \[Kappa])*\[CapitalPsi][1] + 
+       (-j + \[Nu])*\[CapitalPsi][1] + (j - k)*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWAHBD] + 
+    E^((k - \[Kappa])*\[CapitalPsi][1] + (j - k)*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBD] + 
+    E^(k*\[CapitalPsi][1] - \[Kappa]*\[CapitalPsi][1] - k*\[CapitalPsi][2] + 
+       \[Nu]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBDBH] + 
+    E^((k - \[Kappa])*\[CapitalPsi][1] + (j - k)*\[CapitalPsi][2] + 
+       (-j + \[Nu])*\[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDCH], {\[Nu], 1 + j, q}, {\[Kappa], 0, -1 + k}], 
+  {j, 2, -1 + q}, {k, 1, -1 + j}], 
+ SecretTable[SecretSum[b[\[Nu]]^2*coeff[EG2G2G4c] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1])*b[\[Nu]]^2*coeff[EG2G2G4cAD] + 
+    E^((j - k)*\[CapitalPsi][1])*b[\[Nu]]^2*coeff[EG2G2G4cAW] + 
+    (b[\[Nu]]^2*coeff[EG2G2G4cAWAD])/E^((k - \[Nu])*\[CapitalPsi][1]) + 
+    E^((j - k)*\[CapitalPsi][1] + (-j + \[Nu])*\[CapitalPsi][2])*b[\[Nu]]^2*
+     coeff[EG2G2G4cAWBD], {\[Nu], 1 + j, q}, {\[Kappa], \[Nu], \[Nu]}], 
+  {j, 2, -1 + q}, {k, 1, -1 + j}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2c] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G4G2cAH] + E^((-k + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G4G2cAW] + (b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWAH])/
+     E^((k - \[Nu])*\[CapitalPsi][1]) + 
+    E^((-k + \[Kappa])*\[CapitalPsi][1] + (-\[Kappa] + \[Nu])*
+        \[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWBH] + 
+    E^((-k + \[Kappa])*\[CapitalPsi][1] + (-\[Kappa] + \[Nu])*
+        \[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWCH] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G4G2cBH], {\[Nu], 1 + j, q}, {\[Kappa], j, j}], {j, 2, -1 + q}, 
+  {k, 1, -1 + j}], SecretTable[
+  SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2c] + 
+    E^((j - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cAD] + E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG4G2G2cADAH] + 
+    E^((j - \[Kappa])*\[CapitalPsi][1] + (-j + \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cADBH] + 
+    E^((-j + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cAH] + E^((-j + \[Nu])*\[CapitalPsi][1] + 
+       (j - \[Kappa])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cAHBD] + E^((j - \[Kappa])*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG4G2G2cBD] + E^((-\[Kappa] + \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cBDBH] + 
+    E^((j - \[Kappa])*\[CapitalPsi][2] + (-j + \[Nu])*\[CapitalPsi][3])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cBDCH], {\[Nu], 1 + j, q}, 
+   {\[Kappa], k, k}], {j, 2, -1 + q}, {k, 1, -1 + j}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2c] + 
+    E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAD] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cADAH] + 
+    E^((j - \[Nu])*\[CapitalPsi][1] + (-j + \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cADBH] + 
+    E^((-j + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAH] + E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAW] + E^((j - k)*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWAD] + E^((-k + \[Kappa])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWADAH] + 
+    E^(j*\[CapitalPsi][1] - k*\[CapitalPsi][1] - j*\[CapitalPsi][2] + 
+       \[Kappa]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWADBH] + 
+    E^((-j - k + \[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAH] + E^((-j + \[Kappa])*\[CapitalPsi][1] + 
+       (-k + \[Nu])*\[CapitalPsi][1] + (j - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWAHBD] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1] + (j - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBD] + 
+    E^(-(k*\[CapitalPsi][1]) + \[Nu]*\[CapitalPsi][1] + 
+       \[Kappa]*\[CapitalPsi][2] - \[Nu]*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWBDBH] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1] + (j - \[Nu])*\[CapitalPsi][2] + 
+       (-j + \[Kappa])*\[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDCH], {\[Nu], 1 + k, -1 + j}, {\[Kappa], 1 + j, q}], 
+  {j, 3, -1 + q}, {k, 1, -2 + j}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2c] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAD] + E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cADAH] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1] + (j - \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cADBH] + 
+    E^((j - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAH] + E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAW] + E^((-k + \[Kappa])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWAD] + 
+    E^((j - k)*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWADAH] + 
+    E^(-(k*\[CapitalPsi][1]) + \[Kappa]*\[CapitalPsi][1] + 
+       j*\[CapitalPsi][2] - \[Kappa]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWADBH] + 
+    E^((j - k - \[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAH] + E^(j*\[CapitalPsi][1] - k*\[CapitalPsi][1] - 
+       (\[Kappa] - \[Nu])*(\[CapitalPsi][1] - \[CapitalPsi][2]))*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWAHBD] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1] + (\[Kappa] - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBD] + 
+    E^(-(k*\[CapitalPsi][1]) + \[Nu]*\[CapitalPsi][1] + j*\[CapitalPsi][2] - 
+       \[Nu]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBDBH] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1] + (\[Kappa] - \[Nu])*\[CapitalPsi][2] + 
+       (j - \[Kappa])*\[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDCH], {\[Nu], 1 + k, -2 + j}, 
+   {\[Kappa], 1 + \[Nu], -1 + j}], {j, 4, q}, {k, 1, -3 + j}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2c] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAD] + E^((j - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cADAH] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1] + (j - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cADBH] + 
+    E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAH] + E^((-k + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAW] + E^((-k + \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWAD] + 
+    E^((j - k)*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWADAH] + 
+    E^(-(k*\[CapitalPsi][1]) + \[Nu]*\[CapitalPsi][1] + j*\[CapitalPsi][2] - 
+       \[Nu]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWADBH] + 
+    E^((j - k + \[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAH] + E^(j*\[CapitalPsi][1] - k*\[CapitalPsi][1] + 
+       (\[Kappa] - \[Nu])*(\[CapitalPsi][1] - \[CapitalPsi][2]))*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWAHBD] + 
+    E^((-k + \[Kappa])*\[CapitalPsi][1] + (-\[Kappa] + \[Nu])*
+        \[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBD] + 
+    E^(-(k*\[CapitalPsi][1]) + \[Kappa]*\[CapitalPsi][1] + 
+       j*\[CapitalPsi][2] - \[Kappa]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDBH] + E^((-k + \[Kappa])*\[CapitalPsi][1] + 
+       (-\[Kappa] + \[Nu])*\[CapitalPsi][2] + (j - \[Nu])*\[CapitalPsi][3])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBDCH], {\[Nu], 2 + k, -1 + j}, 
+   {\[Kappa], 1 + k, -1 + \[Nu]}], {j, 4, q}, {k, 1, -3 + j}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2c] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAD] + E^((j - k)*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cADAH] + E^((-k + \[Nu])*\[CapitalPsi][1] + 
+       (j - \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cADBH] + E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAH] + E^((k - \[Kappa])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAW] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAD] + E^((j - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWADAH] + 
+    E^(-(\[Kappa]*\[CapitalPsi][1]) + \[Nu]*\[CapitalPsi][1] + 
+       j*\[CapitalPsi][2] - \[Nu]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWADBH] + 
+    E^((j + k - \[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAH] + E^((k - \[Kappa])*\[CapitalPsi][1] + 
+       (j - \[Nu])*\[CapitalPsi][1] + (-k + \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWAHBD] + 
+    E^((k - \[Kappa])*\[CapitalPsi][1] + (-k + \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBD] + 
+    E^(k*\[CapitalPsi][1] - \[Kappa]*\[CapitalPsi][1] + j*\[CapitalPsi][2] - 
+       k*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBDBH] + 
+    E^((k - \[Kappa])*\[CapitalPsi][1] + (-k + \[Nu])*\[CapitalPsi][2] + 
+       (j - \[Nu])*\[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDCH], {\[Nu], 1 + k, -1 + j}, {\[Kappa], 0, -1 + k}], 
+  {j, 3, q}, {k, 1, -2 + j}], SecretTable[
+  SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4c] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G4cAD] + E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G4cAW] + E^((-k + \[Kappa])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4cAWAD] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1] + (\[Kappa] - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4cAWBD], {\[Nu], 1 + k, -1 + j}, 
+   {\[Kappa], j, j}], {j, 3, q}, {k, 1, -2 + j}], 
+ SecretTable[SecretSum[b[\[Nu]]^2*coeff[EG2G4G2c] + 
+    E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]^2*coeff[EG2G4G2cAH] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Nu]]^2*coeff[EG2G4G2cAW] + 
+    E^((j - k)*\[CapitalPsi][1])*b[\[Nu]]^2*coeff[EG2G4G2cAWAH] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1] + (j - \[Nu])*\[CapitalPsi][2])*
+     b[\[Nu]]^2*coeff[EG2G4G2cAWBH] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1] + (j - \[Nu])*\[CapitalPsi][3])*
+     b[\[Nu]]^2*coeff[EG2G4G2cAWCH] + E^((j - \[Nu])*\[CapitalPsi][2])*
+     b[\[Nu]]^2*coeff[EG2G4G2cBH], {\[Nu], 1 + k, -1 + j}, 
+   {\[Kappa], \[Nu], \[Nu]}], {j, 3, q}, {k, 1, -2 + j}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2c] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cAD] + E^((j - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG4G2G2cADAH] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1] + (j - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cADBH] + 
+    E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cAH] + 
+    E^((j - \[Nu])*\[CapitalPsi][1] + (-\[Kappa] + \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cAHBD] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cBD] + E^((j - \[Kappa])*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG4G2G2cBDBH] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][2] + (j - \[Nu])*\[CapitalPsi][3])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cBDCH], {\[Nu], 1 + k, -1 + j}, 
+   {\[Kappa], k, k}], {j, 3, q}, {k, 1, -2 + j}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2c] + 
+    E^((j - k)*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAD] + 
+    E^((-k + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cADAH] + 
+    E^((j - k)*\[CapitalPsi][1] + (-j + \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cADBH] + 
+    E^((-j + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAH] + E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAW] + E^((j - \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWAD] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWADAH] + 
+    E^(j*\[CapitalPsi][1] - \[Nu]*\[CapitalPsi][1] - j*\[CapitalPsi][2] + 
+       \[Kappa]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWADBH] + 
+    E^((-j + k + \[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAH] + E^((-j + \[Kappa])*\[CapitalPsi][1] + 
+       (k - \[Nu])*\[CapitalPsi][1] + (j - k)*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWAHBD] + 
+    E^((k - \[Nu])*\[CapitalPsi][1] + (j - k)*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWBD] + 
+    E^(k*\[CapitalPsi][1] - \[Nu]*\[CapitalPsi][1] - k*\[CapitalPsi][2] + 
+       \[Kappa]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDBH] + 
+    E^((k - \[Nu])*\[CapitalPsi][1] + (j - k)*\[CapitalPsi][2] + 
+       (-j + \[Kappa])*\[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDCH], {\[Nu], 0, -1 + k}, {\[Kappa], 1 + j, q}], 
+  {j, 2, -1 + q}, {k, 1, -1 + j}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2c] + 
+    E^((-k + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAD] + E^((j - k)*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cADAH] + E^((-k + \[Kappa])*\[CapitalPsi][1] + 
+       (j - \[Kappa])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cADBH] + E^((j - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAH] + E^((k - \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAW] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAD] + E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWADAH] + 
+    E^(\[Kappa]*\[CapitalPsi][1] - \[Nu]*\[CapitalPsi][1] + 
+       j*\[CapitalPsi][2] - \[Kappa]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWADBH] + 
+    E^((j + k - \[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAH] + E^((j - \[Kappa])*\[CapitalPsi][1] + 
+       (k - \[Nu])*\[CapitalPsi][1] + (-k + \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWAHBD] + 
+    E^((k - \[Nu])*\[CapitalPsi][1] + (-k + \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBD] + 
+    E^(k*\[CapitalPsi][1] - \[Nu]*\[CapitalPsi][1] + j*\[CapitalPsi][2] - 
+       k*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBDBH] + 
+    E^((k - \[Nu])*\[CapitalPsi][1] + (-k + \[Kappa])*\[CapitalPsi][2] + 
+       (j - \[Kappa])*\[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDCH], {\[Nu], 0, -1 + k}, {\[Kappa], 1 + k, -1 + j}], 
+  {j, 3, q}, {k, 1, -2 + j}], SecretTable[
+  SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2c] + 
+    E^((k - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAD] + E^((j - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cADAH] + 
+    E^((k - \[Kappa])*\[CapitalPsi][1] + (j - k)*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cADBH] + 
+    E^((j - k)*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAH] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAW] + E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWAD] + E^((j - \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWADAH] + 
+    E^(k*\[CapitalPsi][1] - \[Nu]*\[CapitalPsi][1] + j*\[CapitalPsi][2] - 
+       k*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWADBH] + 
+    E^((j - k + \[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAH] + 
+    E^((j - k)*\[CapitalPsi][1] + (\[Kappa] - \[Nu])*\[CapitalPsi][1] + 
+       (k - \[Kappa])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAHBD] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][1] + 
+       (k - \[Kappa])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBD] + E^(\[Kappa]*\[CapitalPsi][1] - 
+       \[Nu]*\[CapitalPsi][1] + j*\[CapitalPsi][2] - 
+       \[Kappa]*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDBH] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][1] + 
+       (k - \[Kappa])*\[CapitalPsi][2] + (j - k)*\[CapitalPsi][3])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBDCH], {\[Nu], 0, -2 + k}, 
+   {\[Kappa], 1 + \[Nu], -1 + k}], {j, 3, q}, {k, 2, -1 + j}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2c] + 
+    E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAD] + E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cADAH] + 
+    E^((k - \[Nu])*\[CapitalPsi][1] + (j - k)*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cADBH] + E^((j - k)*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAH] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAW] + E^((k - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G2G2cAWAD] + E^((j - \[Kappa])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWADAH] + 
+    E^(k*\[CapitalPsi][1] - \[Kappa]*\[CapitalPsi][1] + j*\[CapitalPsi][2] - 
+       k*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWADBH] + 
+    E^((j - k - \[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAH] + 
+    E^((j - k)*\[CapitalPsi][1] + (-\[Kappa] + \[Nu])*\[CapitalPsi][1] + 
+       (k - \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWAHBD] + E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1] + 
+       (k - \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBD] + E^(-(\[Kappa]*\[CapitalPsi][1]) + 
+       \[Nu]*\[CapitalPsi][1] + j*\[CapitalPsi][2] - \[Nu]*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G2G2cAWBDBH] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1] + (k - \[Nu])*\[CapitalPsi][2] + 
+       (j - k)*\[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G2G2cAWBDCH], {\[Nu], 1, -1 + k}, {\[Kappa], 0, -1 + \[Nu]}], 
+  {j, 3, q}, {k, 2, -1 + j}], SecretTable[
+  SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4c] + 
+    E^((-k + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G4cAD] + E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G4cAW] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4cAWAD] + 
+    E^((k - \[Nu])*\[CapitalPsi][1] + (-k + \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4cAWBD], {\[Nu], 0, -1 + k}, 
+   {\[Kappa], j, j}], {j, 2, q}, {k, 1, -1 + j}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2c] + 
+    E^((j - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G4G2cAH] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G4G2cAW] + E^((j - \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWAH] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1] + (j - \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWBH] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1] + (j - \[Kappa])*\[CapitalPsi][3])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWCH] + 
+    E^((j - \[Kappa])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G4G2cBH], {\[Nu], 0, -1 + k}, {\[Kappa], k, k}], {j, 2, q}, 
+  {k, 1, -1 + j}], SecretTable[SecretSum[b[\[Nu]]^2*coeff[EG4G2G2c] + 
+    E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]^2*coeff[EG4G2G2cAD] + 
+    E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]^2*coeff[EG4G2G2cADAH] + 
+    E^((k - \[Nu])*\[CapitalPsi][1] + (j - k)*\[CapitalPsi][2])*b[\[Nu]]^2*
+     coeff[EG4G2G2cADBH] + E^((j - k)*\[CapitalPsi][1])*b[\[Nu]]^2*
+     coeff[EG4G2G2cAH] + E^((j - k)*\[CapitalPsi][1] + 
+       (k - \[Nu])*\[CapitalPsi][2])*b[\[Nu]]^2*coeff[EG4G2G2cAHBD] + 
+    E^((k - \[Nu])*\[CapitalPsi][2])*b[\[Nu]]^2*coeff[EG4G2G2cBD] + 
+    E^((j - \[Nu])*\[CapitalPsi][2])*b[\[Nu]]^2*coeff[EG4G2G2cBDBH] + 
+    E^((k - \[Nu])*\[CapitalPsi][2] + (j - k)*\[CapitalPsi][3])*b[\[Nu]]^2*
+     coeff[EG4G2G2cBDCH], {\[Nu], 0, -1 + k}, {\[Kappa], \[Nu], \[Nu]}], 
+  {j, 2, q}, {k, 1, -1 + j}], SecretTable[
+  SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2c] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G4G2cAH] + E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G4G2cAW] + (b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWAH])/
+     E^((k - \[Kappa])*\[CapitalPsi][1]) + 
+    E^((-k + \[Nu])*\[CapitalPsi][1] + (\[Kappa] - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWBH] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1] + (\[Kappa] - \[Nu])*\[CapitalPsi][3])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWCH] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G4G2cBH], {\[Nu], j, j}, {\[Kappa], 1 + j, q}], {j, 2, -1 + q}, 
+  {k, 1, -1 + j}], SecretTable[
+  SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4c] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G4cAD] + E^((-k + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G4cAW] + E^((-k + \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4cAWAD] + 
+    E^((-k + \[Kappa])*\[CapitalPsi][1] + (-\[Kappa] + \[Nu])*
+        \[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4cAWBD], 
+   {\[Nu], j, j}, {\[Kappa], 1 + k, -1 + j}], {j, 3, q}, {k, 1, -2 + j}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4c] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G4cAD] + E^((k - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G4cAW] + E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4cAWAD] + 
+    E^((k - \[Kappa])*\[CapitalPsi][1] + (-k + \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4cAWBD], {\[Nu], j, j}, 
+   {\[Kappa], 0, -1 + k}], {j, 2, q}, {k, 1, -1 + j}], 
+ SecretTable[SecretSum[b[\[Nu]]^2*coeff[EG2G6c] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Nu]]^2*coeff[EG2G6cAW], 
+   {\[Nu], j, j}, {\[Kappa], j, j}], {j, 2, q}, {k, 1, -1 + j}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG4G4c] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G4cAD] + E^((-\[Kappa] + \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG4G4cBD], {\[Nu], j, j}, {\[Kappa], k, k}], {j, 2, q}, 
+  {k, 1, -1 + j}], SecretTable[
+  SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2c] + 
+    E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cAD] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cADAH] + E^((j - \[Nu])*\[CapitalPsi][1] + 
+       (-j + \[Kappa])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cADBH] + E^((-j + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG4G2G2cAH] + 
+    E^((-j + \[Kappa])*\[CapitalPsi][1] + (j - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cAHBD] + 
+    E^((j - \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cBD] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cBDBH] + E^((j - \[Nu])*\[CapitalPsi][2] + 
+       (-j + \[Kappa])*\[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cBDCH], {\[Nu], k, k}, {\[Kappa], 1 + j, q}], 
+  {j, 2, -1 + q}, {k, 1, -1 + j}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2c] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cAD] + E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG4G2G2cADAH] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1] + (j - \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cADBH] + 
+    E^((j - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cAH] + E^((j - \[Kappa])*\[CapitalPsi][1] + 
+       (\[Kappa] - \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cAHBD] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cBD] + 
+    E^((j - \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cBDBH] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][2] + 
+       (j - \[Kappa])*\[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cBDCH], {\[Nu], k, k}, {\[Kappa], 1 + k, -1 + j}], 
+  {j, 3, q}, {k, 1, -2 + j}], SecretTable[
+  SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2c] + 
+    E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAH] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G4G2cAW] + E^((j - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G4G2cAWAH] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1] + (j - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWBH] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1] + (j - \[Nu])*\[CapitalPsi][3])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWCH] + 
+    E^((j - \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cBH], 
+   {\[Nu], k, k}, {\[Kappa], 0, -1 + k}], {j, 2, q}, {k, 1, -1 + j}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG4G4c] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G4cAD] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG4G4cBD], {\[Nu], k, k}, {\[Kappa], j, j}], {j, 2, q}, 
+  {k, 1, -1 + j}], SecretTable[SecretSum[b[\[Nu]]^2*coeff[EG6G2c] + 
+    E^((j - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]^2*coeff[EG6G2cAH] + 
+    E^((j - \[Nu])*\[CapitalPsi][2])*b[\[Nu]]^2*coeff[EG6G2cBH] + 
+    E^((j - \[Nu])*\[CapitalPsi][3])*b[\[Nu]]^2*coeff[EG6G2cCH], 
+   {\[Nu], k, k}, {\[Kappa], k, k}], {j, 2, q}, {k, 1, -1 + j}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2c] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cAD] + E^((-k + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG4G2G2cADAH] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1] + (\[Kappa] - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cADBH] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cAH] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][1] + 
+       (-k + \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cAHBD] + E^((-k + \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG4G2G2cBD] + E^((-k + \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cBDBH] + 
+    E^((-k + \[Nu])*\[CapitalPsi][2] + (\[Kappa] - \[Nu])*\[CapitalPsi][3])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cBDCH], {\[Nu], 1 + j, -1 + q}, 
+   {\[Kappa], 1 + \[Nu], q}], {j, 1, -2 + q}, {k, j, j}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2c] + 
+    E^((-k + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cAD] + E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG4G2G2cADAH] + 
+    E^((-k + \[Kappa])*\[CapitalPsi][1] + (-\[Kappa] + \[Nu])*
+        \[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cADBH] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cAH] + E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1] + 
+       (-k + \[Kappa])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG4G2G2cAHBD] + E^((-k + \[Kappa])*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG4G2G2cBD] + E^((-k + \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cBDBH] + 
+    E^((-k + \[Kappa])*\[CapitalPsi][2] + (-\[Kappa] + \[Nu])*
+        \[CapitalPsi][3])*b[\[Kappa]]*b[\[Nu]]*coeff[EG4G2G2cBDCH], 
+   {\[Nu], 2 + j, q}, {\[Kappa], 1 + j, -1 + \[Nu]}], {j, 1, -2 + q}, 
+  {k, j, j}], SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2c] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G4G2cAH] + E^((k - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G4G2cAW] + (b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWAH])/
+     E^((\[Kappa] - \[Nu])*\[CapitalPsi][1]) + 
+    E^((k - \[Kappa])*\[CapitalPsi][1] + (-k + \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWBH] + 
+    E^((k - \[Kappa])*\[CapitalPsi][1] + (-k + \[Nu])*\[CapitalPsi][3])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWCH] + 
+    E^((-k + \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cBH], 
+   {\[Nu], 1 + j, q}, {\[Kappa], 0, -1 + j}], {j, 1, -1 + q}, {k, j, j}], 
+ SecretTable[SecretSum[b[\[Nu]]^2*coeff[EG4G4c] + 
+    E^((-k + \[Nu])*\[CapitalPsi][1])*b[\[Nu]]^2*coeff[EG4G4cAD] + 
+    E^((-k + \[Nu])*\[CapitalPsi][2])*b[\[Nu]]^2*coeff[EG4G4cBD], 
+   {\[Nu], 1 + j, q}, {\[Kappa], \[Nu], \[Nu]}], {j, 1, -1 + q}, {k, j, j}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG6G2c] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG6G2cAH] + E^((-\[Kappa] + \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG6G2cBH] + E^((-\[Kappa] + \[Nu])*\[CapitalPsi][3])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG6G2cCH], {\[Nu], 1 + j, q}, 
+   {\[Kappa], j, j}], {j, 1, -1 + q}, {k, j, j}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2c] + 
+    E^((-k + \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G4G2cAH] + E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G4G2cAW] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWAH] + 
+    E^((k - \[Nu])*\[CapitalPsi][1] + (-k + \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWBH] + 
+    E^((k - \[Nu])*\[CapitalPsi][1] + (-k + \[Kappa])*\[CapitalPsi][3])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G4G2cAWCH] + 
+    E^((-k + \[Kappa])*\[CapitalPsi][2])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G4G2cBH], {\[Nu], 0, -1 + j}, {\[Kappa], 1 + j, q}], 
+  {j, 1, -1 + q}, {k, j, j}], SecretTable[
+  SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4c] + 
+    E^((k - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G4cAD] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G4cAW] + E^((k - \[Nu])*\[CapitalPsi][1])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4cAWAD] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1] + (k - \[Kappa])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4cAWBD], {\[Nu], 0, -2 + j}, 
+   {\[Kappa], 1 + \[Nu], -1 + j}], {j, 2, q}, {k, j, j}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4c] + 
+    E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4cAD] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G2G4cAW] + E^((k - \[Kappa])*\[CapitalPsi][1])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG2G2G4cAWAD] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1] + (k - \[Nu])*\[CapitalPsi][2])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG2G2G4cAWBD], {\[Nu], 1, -1 + j}, 
+   {\[Kappa], 0, -1 + \[Nu]}], {j, 2, q}, {k, j, j}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G6c] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G6cAW], {\[Nu], 0, -1 + j}, {\[Kappa], j, j}], {j, 1, q}, 
+  {k, j, j}], SecretTable[SecretSum[b[\[Nu]]^2*coeff[EG4G4c] + 
+    E^((k - \[Nu])*\[CapitalPsi][1])*b[\[Nu]]^2*coeff[EG4G4cAD] + 
+    E^((k - \[Nu])*\[CapitalPsi][2])*b[\[Nu]]^2*coeff[EG4G4cBD], 
+   {\[Nu], 0, -1 + j}, {\[Kappa], \[Nu], \[Nu]}], {j, 1, q}, {k, j, j}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG6G2c] + 
+    E^((\[Kappa] - \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG6G2cAH] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][2])*b[\[Kappa]]*
+     b[\[Nu]]*coeff[EG6G2cBH] + E^((\[Kappa] - \[Nu])*\[CapitalPsi][3])*
+     b[\[Kappa]]*b[\[Nu]]*coeff[EG6G2cCH], {\[Nu], j, j}, 
+   {\[Kappa], 1 + j, q}], {j, 1, -1 + q}, {k, j, j}], 
+ SecretTable[SecretSum[b[\[Kappa]]*b[\[Nu]]*coeff[EG2G6c] + 
+    E^((-\[Kappa] + \[Nu])*\[CapitalPsi][1])*b[\[Kappa]]*b[\[Nu]]*
+     coeff[EG2G6cAW], {\[Nu], j, j}, {\[Kappa], 0, -1 + j}], {j, 1, q}, 
+  {k, j, j}], SecretTable[SecretSum[b[\[Nu]]^2*coeff[EG8c], {\[Nu], j, j}, 
+   {\[Kappa], j, j}], {j, 1, q}, {k, j, j}]}

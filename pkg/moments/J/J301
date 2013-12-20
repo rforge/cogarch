@@ -1,0 +1,6 @@
+(6*\[Beta]^2*(E^((d1 + d2)*\[CapitalPsi][3])*(\[CapitalPsi][1] - 
+     \[CapitalPsi][2]) + E^((d1 + d2)*\[CapitalPsi][1])*
+    (\[CapitalPsi][2] - \[CapitalPsi][3]) + E^((d1 + d2)*\[CapitalPsi][2])*
+    (-\[CapitalPsi][1] + \[CapitalPsi][3])))/
+ ((\[CapitalPsi][1] - \[CapitalPsi][2])*(\[CapitalPsi][1] - \[CapitalPsi][3])*
+  (\[CapitalPsi][2] - \[CapitalPsi][3]))

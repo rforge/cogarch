@@ -1,0 +1,3 @@
+PKG_CPPFLAGS=-I. -IgeneratedCode
+OBJECTS=computeMloop.o computeMcases.o generatedCode/coefficientFunctions.o generatedCode/standaloneMoments.o
+#all: $(SHLIB)

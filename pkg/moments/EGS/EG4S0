@@ -1,0 +1,7 @@
+(\[Beta]^2*(12*\[Phi]*\[CapitalPsi][1]*(1 - E^(t*\[CapitalPsi][1]) + 
+     t*\[CapitalPsi][1])*(2*\[CapitalPsi][1] - \[CapitalPsi][2]) + 
+   2*t*\[CapitalPsi][1]^3*(-2*\[CapitalPsi][1] + \[CapitalPsi][2]) + 
+   3*\[Phi]^2*(-2*(-1 + E^(t*\[CapitalPsi][1]))*\[CapitalPsi][2] + 
+     t*\[CapitalPsi][1]^2*(-4 + t*\[CapitalPsi][2]) + 
+     2*\[CapitalPsi][1]*(-2 + 2*E^(t*\[CapitalPsi][1]) + 
+       t*\[CapitalPsi][2]))))/(\[Phi]^2*\[CapitalPsi][1]^4*\[CapitalPsi][2])

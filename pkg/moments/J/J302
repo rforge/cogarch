@@ -1,0 +1,2 @@
+(3*(E^((d1 + d2)*\[CapitalPsi][2]) - E^((d1 + d2)*\[CapitalPsi][3]))*\[Beta])/
+ (\[CapitalPsi][2] - \[CapitalPsi][3])
