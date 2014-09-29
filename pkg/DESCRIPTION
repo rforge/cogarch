@@ -1,10 +1,11 @@
 Package: COGARCH
 Type: Package
-Title: COGARCH process simulation and estimation
-Version: 0.1
-Date: 2013-10-03
-Author:  G.Birolo, A. Arcagni, L. Mercuri, E. Bibbona, I. Negri
-Maintainer: Alberto Arcagni <alberto.arcagni@unimib.it>
-Description: The package provides simulation and estimation procedures for the COGARCH introduced in "A continuous-time GARCH process driven by a L{\'e}vy process: Stationarity and second-order behaviour", by Kl{\"u}ppelberg et al., Journal of Applied Probability (2004)
-License: GPL-2
-Depends: methods
+Title: What the package does (short line)
+Version: 1.1
+Date: 2014-09-30
+Depends: methods, stats4
+Author: Who wrote it
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
+

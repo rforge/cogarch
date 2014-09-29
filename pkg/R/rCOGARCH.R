@@ -1,3 +1,8 @@
+varGamma <- setClass("varGamma", representation(
+  #  delta="numeric", # e' il dt... lo controlliamo noi o lasciamo che l'utente possa sbagliare?
+  c = "numeric"
+))
+
 setGeneric("rCOGARCH",
            function(
              parameters,
@@ -48,14 +53,23 @@ setGeneric("rCOGARCH",
                  wch <- unique(wch)[-1]
                  wch <- unique(c(wch, length(tmp@time)))
                  res@time <- c(res@time, dates[wch]) # ultimo elemento o ultima riga
-                 res@sigma <- as.matrix(rbind(as.matrix(res@sigma), as.matrix(as.matrix(tmp@sigma)[wch,])))
-                 res@G <- as.matrix(rbind(as.matrix(res@G), as.matrix(as.matrix(tmp@G)[wch,])))
+                # res@sigma <- as.matrix(rbind(as.matrix(res@sigma), as.matrix(as.matrix(tmp@sigma)[wch,])))
+                res@sigma <- as.matrix(rbind(as.matrix(res@sigma), t(as.matrix(as.matrix(tmp@sigma)[wch,]))))
+
+                 # res@G <- as.matrix(rbind(as.matrix(res@G), as.matrix(as.matrix(tmp@G)[wch,])))
+                
+                res@G <- as.matrix(rbind(as.matrix(res@G), t(as.matrix(as.matrix(tmp@G)[wch,]))))
                }
              }
-             wch <- which(res@time %in% obstimes)
-             res@time <- res@time[wch]
-             res@sigma <- as.matrix(as.matrix(res@sigma)[wch,])
-             res@G <- as.matrix(as.matrix(res@G)[wch,])
+             #wch <- which(res@time %in% obstimes) #
+             wch<-approx(x=obstimes,y=obstimes, xout=res@time,  method="const")  
+             wch2<- which(unique(wch$y) %in% obstimes)
+             res@time <- res@time[na.omit(wch2)]
+             res@time <- c(0,res@time)
+             res@sigma <- as.matrix(as.matrix(res@sigma)[na.omit(wch2),])
+             res@sigma <- rbind(matrix(sigmaSq0,nrow=1,ncol=nsim),res@sigma)
+             res@G <- as.matrix(as.matrix(res@G)[na.omit(wch2),])
+             res@G <- rbind(matrix(0,nrow=1,ncol=nsim),res@G)
              res
            }
 )

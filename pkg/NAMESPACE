@@ -1,14 +1,21 @@
-exportPattern("^[[:alpha:]]+")
-exportMethods(
-    "plot",
-    "rCOGARCH",
-    "shrinker",
-    "summary" 
-)
+#exportPattern("^[[:alpha:]]+")
+
+import("methods")
+importFrom("graphics", "plot")
+import("stats4")
+
 exportClasses(
-    "trajectories",
-     "COGprm",
-     "shock",
+    "COGprm",
+     "trajectories",
      "varGamma" 
 )
+
+exportMethods(
+    "rCOGARCH"
+)
+
+export(COGprm)
+export(varGamma)
+export(rCOGARCH)
+
 useDynLib(COGARCH)

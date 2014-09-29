@@ -1,0 +1,94 @@
+\name{rCOGARCH}
+\alias{rCOGARCH}
+\alias{rCOGARCH,COGprm,function,numeric,numeric,numeric,numeric,numeric,numeric,numeric,character-method}
+\alias{rCOGARCH,COGprm,varGamma,numeric,numeric,numeric,numeric,numeric,numeric,numeric,character-method}
+%- Also NEED an '\alias' for EACH other topic documented here.
+\title{Simulator function for the Cogarch(1,1) process
+}
+\description{
+The function returns the simulated sample paths of a Cogarch(1,1) process}
+\usage{
+rCOGARCH(parameters, increments, obstimes, blocks = obstimes, nsim = 1, dt = 1/100, sigmaSq0 = 1, L0 = 0, Time = 1, xname = "n", ...)
+}
+%- maybe also 'usage' for other objects documented here.
+\arguments{
+  \item{parameters}{ is an object of class \code{\link{COGprm}} that contains the values of the Cogarch(1,1) model
+}
+  \item{increments}{ is an object of class \code{function} or  \code{\link{varGamma}} that contains informations about the type of the Levy increments. 
+  For the variance gamma case, \code{increments} is an object of class \code{\link{varGamma}}. For the compound poisson increments, the variable contains the  random number generator for the jump size. See examples for more details.
+}
+  \item{obstimes}{is a \code{numeric} object that indicates the dates in which we observe the Cogarch(1,1) process. }
+  \item{blocks}{is a \code{numeric} object that allows the user to manage efficiently the memory.}
+  \item{nsim}{ is a \code{numeric} object indicating the number of simulated trajectories.}
+  \item{dt}{ is a \code{numeric} object that is the length of the step interval.
+}
+  \item{sigmaSq0}{is a \code{numeric} object that is the initial value for the \code{sigma} process.}
+  \item{L0}{is a \code{numeric} object that is the initial Value for the Levy process
+  %Controllare poiche il levy parte da zero. E' utile avere G0
+  }
+  \item{Time}{is a \code{numeric} object that is the last time in the  trajectories.
+%%     ~~Describe \code{Time} here~~
+}
+  \item{xname}{ is a \code{character} object indicating the label for the number of simulation. }
+  \item{\dots}{ this arguments is used to pass the numerical value for \code{lambda} when we consider a cogarch(1,1) driven by a compound poisson.
+%%     ~~Describe \code{\dots} here~~
+}
+}
+%\details{
+%%  ~~ If necessary, more details than the description above ~~
+%}
+\value{ The method returns an object of class \code{\link{trajectories}} containing the simulated trajectories.
+%%  ~Describe the value returned
+%%  If it is a LIST, use
+%%  \item{comp1 }{Description of 'comp1'}
+%%  \item{comp2 }{Description of 'comp2'}
+%% ...
+}
+%\references{
+%% ~put references to the literature/web site here ~
+%}
+\author{
+Cogarch Team
+}
+
+%% ~Make other sections like Warning with \section{Warning }{....} ~
+
+\examples{
+
+# Example of Cogarch driven by a Variance Gamma Process
+dt <- 1/100
+# object for Cogarch parameters
+prm <- COGprm(eta = 0.053, beta = 0.04, phi = 0.038)
+# We build an object of class VarGamma for standardized Variance Gamma increments
+set.seed(123)
+prmVgamma <- varGamma(c = 1)
+#
+ system.time(prv <- rCOGARCH(prm, prmVgamma, obstimes=1:20, nsim=1, sigmaSq0=0.2, L0=0, dt = dt))
+plot(prv)
+
+# Example of Cogarch driven by a Compound Poisson Process where the jump size 
+# follows a standard normal
+
+prm <- COGprm(eta = 0.053, beta = 0.9, phi = 0.038)
+set.seed(123)
+system.time(prv2 <- rCOGARCH(prm, rnorm,  obstimes=1:100/10, nsim=1, sigmaSq0=0.3, L0=0,dt=dt,lambda = 2))
+
+plot(prv2)
+
+
+# Example of Cogarch driven by a Compound Poisson Process where the jump size 
+# is specified by the user
+
+prm <- COGprm(eta = 0.053, beta = 0.9, phi = 0.038)
+set.seed(123)
+myfun<-function(n){rnorm(n=pippo,mean=1,sd=1)}
+
+system.time(prv3 <- rCOGARCH(prm, rnorm,  obstimes=1:100/10, nsim=1, sigmaSq0=0.3, L0=0,dt=dt,lambda = 2))
+
+plot(prv3)
+
+
+
+}
+% Add one or more standard keywords, see file 'KEYWORDS' in the
+% R documentation directory.
