@@ -1,4 +1,4 @@
-rLatentCOGARCH <- function(deltat, inc, p=1, q=1, eta, beta, phi, sigmaSq0, L0=0) {
+rLatentCOGARCH <- function(deltat, inc, p=1, q=1, eta, beta, phi, sigmaSq0, G0=0) {
   n <- length(deltat)
   stopifnot(sigmaSq0 > 0)
   B <- beta*deltat
@@ -10,7 +10,7 @@ rLatentCOGARCH <- function(deltat, inc, p=1, q=1, eta, beta, phi, sigmaSq0, L0=0
   sigma <- sqrt(sigmaSq)
   infraret <- rbind(as.matrix(inc), 0)*sigma
   
-  G<-apply(rbind(L0, as.matrix(infraret[-n,])), 2, cumsum)
+  G<-apply(rbind(G0, as.matrix(infraret[-n,])), 2, cumsum)
   
   res <- new("trajectories", time=c(0, cumsum(deltat)), sigma=sigma, G=G)
 }

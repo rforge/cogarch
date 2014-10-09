@@ -12,7 +12,7 @@ setGeneric("rCOGARCH",
              nsim = 1,
              dt = 1/100,
              sigmaSq0 = 1,
-             L0 = 0,
+             G0 = 0,
              Time = 1,
              xname = "n",
              ...) {
@@ -23,7 +23,7 @@ setGeneric("rCOGARCH",
              stopifnot(length(parameters@phi)==1, length(parameters@eta)==1)
              
              sigmaSq0 <- sigmaSq0
-             L0 <- L0
+             G0 <- G0
              # Time <- Time
              xname <- xname
              dt <- dt
@@ -33,7 +33,7 @@ setGeneric("rCOGARCH",
              
              Time <- blocks[1]
              shock <- standardGeneric("rCOGARCH")
-             res <- rLatentCOGARCH(shock@timeinc, shock@inc, p=1, q=1, eta=parameters@eta, beta=parameters@beta, phi=parameters@phi, sigmaSq0=sigmaSq0, L0=L0)
+             res <- rLatentCOGARCH(shock@timeinc, shock@inc, p=1, q=1, eta=parameters@eta, beta=parameters@beta, phi=parameters@phi, sigmaSq0=sigmaSq0, G0=G0)
              
              nblocks <- length(blocks)
              if (nblocks > 1) {
@@ -46,7 +46,7 @@ setGeneric("rCOGARCH",
                for(i in 2:nblocks) {
                  Time <- blocks[i] - blocks[i-1]
                  shock <- standardGeneric("rCOGARCH")
-                 tmp <- rLatentCOGARCH(shock@timeinc, shock@inc, p=1, q=1, eta=parameters@eta, beta=parameters@beta, phi=parameters@phi, sigmaSq0=tail(res@sigma, 1)^2, L0=tail(res@G, 1))
+                 tmp <- rLatentCOGARCH(shock@timeinc, shock@inc, p=1, q=1, eta=parameters@eta, beta=parameters@beta, phi=parameters@phi, sigmaSq0=tail(res@sigma, 1)^2, G0=tail(res@G, 1))
 #                  wch <- ((tmp@time + res@time[i]) %in% obstimes)[-1]
                  dates <- tmp@time + tail(res@time, 1)
                  wch <- which(dates %in% obstimes)
@@ -69,13 +69,13 @@ setGeneric("rCOGARCH",
              res@sigma <- as.matrix(as.matrix(res@sigma)[na.omit(wch2),])
              res@sigma <- rbind(matrix(sigmaSq0,nrow=1,ncol=nsim),res@sigma)
              res@G <- as.matrix(as.matrix(res@G)[na.omit(wch2),])
-             res@G <- rbind(matrix(0,nrow=1,ncol=nsim),res@G)
+             res@G <- rbind(matrix(G0,nrow=1,ncol=nsim),res@G)
              res
            }
 )
 
 setMethod("rCOGARCH", c("COGprm", "varGamma", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "character"),
-          function(parameters, increments, obstimes, blocks, nsim, dt, sigmaSq0, L0, Time, xname) {
+          function(parameters, increments, obstimes, blocks, nsim, dt, sigmaSq0, G0, Time, xname) {
             shape <- dt*increments@c
             rate <- sqrt(2*increments@c)
             incshock <- sapply(1:nsim, function(i) rgamma(Time/dt, shape, rate) - rgamma(Time/dt, shape, rate))
@@ -83,7 +83,7 @@ setMethod("rCOGARCH", c("COGprm", "varGamma", "numeric", "numeric", "numeric", "
           })
 
 setMethod("rCOGARCH", c("COGprm", "function", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "numeric", "character"),
-          function(parameters, increments, obstimes, blocks, nsim, dt, sigmaSq0, L0, lambda, Time, xname) { # non mettiamo il default a lambda cosi' l'utente deve ricordarsi di passarlo
+          function(parameters, increments, obstimes, blocks, nsim, dt, sigmaSq0, G0, lambda, Time, xname) { # non mettiamo il default a lambda cosi' l'utente deve ricordarsi di passarlo
             
             MMM <- round(1/dt)
             stopifnot(is.numeric(lambda))
