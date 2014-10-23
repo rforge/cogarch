@@ -3,7 +3,7 @@ Type: Package
 Title: Simulation and parameter estimation for COGARCH(1,1) processes
 Version: 1.3-1
 Date: 2014-23-10
-Depends: methods, stats4
+Depends: R (>=3)
 Maintainer: Enrico Bibbona <enrico.bibbona@unito.it>
 Author: Enrico Bibbona <enrico.bibbona@unito.it> and Ilia Negri <ilia.negri@unibg.it> and Alberto Arcagni <alberto.arcagni@unimib.it> and Lorenzo Mercuri <lorenzo.mercuri@unimi.it>
 Authors@R: c( person("Enrico", "Bibbona", role = c("aut", "cre"), email = "enrico.bibbona@unito.it"), person("Ilia", "Negri", role = "aut", email = "ilia.negri@unibg.it"), person("Alberto", "Arcagni", role = "aut", email = "alberto.arcagni@unimib.it"), person("Lorenzo", "Mercuri", role = "aut", email = "lorenzo.mercuri@unimi.it"))
