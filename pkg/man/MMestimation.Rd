@@ -31,7 +31,7 @@ The value is a list with two entries, \code{theta} that is a COGprm object conta
 }
 \references{
 Haug, S., Kl{\"u}ppelberg, C., Lindner, A., and Zapp, M. (2007).
-\emph{Method of moment estimation in the {${\rm COGARCH}(1,1)$} model.}  Econom. J., 10(2):320--341.
+\emph{Method of moment estimation in the} COGARCH(1,1) \emph{model.}  Econom. J., 10(2):320--341.
 }
 \author{
 Cogarch Team
