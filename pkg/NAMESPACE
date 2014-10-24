@@ -21,6 +21,6 @@ exportMethods(
 	"MSPEestimation",
 	"OPBestimation"
 )
-export(computeMi, COGprm, varGamma, rCOGARCH, MSPEcontrast, OPBcontrast, MMestimation, OPBestimation, MSPEestimation,OPBEF, setPsi, EG2, EG4, EG6, EG8, EG2G2, EG4G2, EG2G4, EG4G4, EG2G6, EG6G2, EG2G2G2, EG4G2G2, EG2G4G2, EG2G2G4, EG2G2G2G2,PML,PMLestimation)
+export(COGprm, varGamma, rCOGARCH, MSPEcontrast, OPBcontrast, MMestimation, OPBestimation, MSPEestimation,OPBEF, setPsi, EG2, EG4, EG6, EG8, EG2G2, EG4G2, EG2G4, EG4G4, EG2G6, EG6G2, EG2G2G2, EG4G2G2, EG2G4G2, EG2G2G4, EG2G2G2G2,PML,PMLestimation)
 
 useDynLib(COGARCH)
