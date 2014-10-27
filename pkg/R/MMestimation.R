@@ -1,5 +1,6 @@
 
-MMestimation<-function(x,d=sqrt(length(x)),explicit=TRUE){ 
+MMestimation<-function(samp,d=sqrt(length(samp)),explicit=TRUE){
+	x<-samp
 	mu<-mean(x^2)
 	gamma0<-mean(x^4)-mu^2
 	logs<-log(abs(acf(x^2,plot=FALSE,lag.max=d,type="correlation")$acf[-1])) #NB qui fare abs non mi piace!! per ora è così

@@ -8,11 +8,11 @@
 Parameter estimation by Method of Moments (MM) as described in the reference below
 }
 \usage{
-MMestimation(x, d = sqrt(length(x)), explicit = TRUE)
+MMestimation(samp, d = sqrt(length(samp)), explicit = TRUE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{
+  \item{samp}{
 is a vector of equispaced log returns (according to the model the are increments of the G process)
 }
   \item{d}{
