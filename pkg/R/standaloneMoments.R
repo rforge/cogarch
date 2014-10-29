@@ -25,7 +25,8 @@ EG2G2G2 <- function(delta1, delta2, h,cogprm, levy){
 .C("EG2G2G2", as.double(delta1), as.double(delta2), as.double(h), as.double(theta), as.double(psi), result=as.double(numeric(1)))$result
 }
 
-EG4G2 <- function(delta2, h, cogprm, levy){
+EG4G2 <- function(delta1, h, cogprm, levy){
+	delta2<-delta1
 	psi.aug<-setPsi(cogprm,levy)
 	psi<-psi.aug[-5]
 	theta<-c(cogprm@beta, cogprm@eta, psi.aug[5], cogprm@phi)
@@ -53,21 +54,25 @@ EG2G2G2G2 <- function(delta1, delta2, delta3, h, cogprm, levy){
 .C("EG2G2G2G2", as.double(delta1), as.double(delta2), as.double(delta3), as.double(h), as.double(theta), as.double(psi), result=as.double(numeric(1)))$result
 }
 
-EG4G2G2 <- function(delta2, delta3, h, cogprm, levy){
+EG4G2G2 <- function(delta1, delta2, h, cogprm, levy){
+	delta3<-delta2
+	delta2<-delta1
 	psi.aug<-setPsi(cogprm,levy)
 	psi<-psi.aug[-5]
 	theta<-c(cogprm@beta, cogprm@eta, psi.aug[5], cogprm@phi)
 .C("EG4G2G2", as.double(delta2), as.double(delta3), as.double(h), as.double(theta), as.double(psi), result=as.double(numeric(1)))$result
 }
 
-EG2G4G2 <- function(delta1, delta3, h, cogprm, levy){
+EG2G4G2 <- function(delta1, delta2, h, cogprm, levy){
+	delta3<-delta2
 	psi.aug<-setPsi(cogprm,levy)
 	psi<-psi.aug[-5]
 	theta<-c(cogprm@beta, cogprm@eta, psi.aug[5], cogprm@phi)
 .C("EG2G4G2", as.double(delta1), as.double(delta3), as.double(h), as.double(theta), as.double(psi), result=as.double(numeric(1)))$result
 }
 
-EG6G2 <- function(delta3, h, cogprm, levy){
+EG6G2 <- function(delta1, h, cogprm, levy){
+	delta3<-delta1
 	psi.aug<-setPsi(cogprm,levy)
 	psi<-psi.aug[-5]
 	theta<-c(cogprm@beta, cogprm@eta, psi.aug[5], cogprm@phi)
@@ -81,7 +86,8 @@ EG2G2G4 <- function(delta1, delta2, h, cogprm, levy){
 .C("EG2G2G4", as.double(delta1), as.double(delta2), as.double(h), as.double(theta), as.double(psi), result=as.double(numeric(1)))$result
 }
 
-EG4G4 <- function(delta2, h, cogprm, levy){
+EG4G4 <- function(delta1, h, cogprm, levy){
+	delta2<-delta1
 	psi.aug<-setPsi(cogprm,levy)
 	psi<-psi.aug[-5]
 	theta<-c(cogprm@beta, cogprm@eta, psi.aug[5], cogprm@phi)
